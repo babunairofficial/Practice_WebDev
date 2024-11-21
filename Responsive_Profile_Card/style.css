@@ -43,6 +43,9 @@ body{
 .profile-card .text-data{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;    
+}
+.text-data .name{
+    font-size: 22px;
+    font-weight: 500;
 }
