@@ -69,3 +69,20 @@ h5{
 .front-face .chip{
      width: 50px;
 }
+.front-face .card-details{
+    display: flex;
+    margin-top: 40px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+h6{
+    font-size: 10px;
+    font-weight: 400;
+}
+h5.number{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+h5.name{
+    margin-top: 20px;
+}
