@@ -6,3 +6,4 @@ Practice web development skills
     3. Credit Card Design
     4. Sidebar Creation
     5. Login Form (Responsive)
+    6. Simple Website Creation
