@@ -7,3 +7,4 @@ Practice web development skills
     4. Sidebar Creation
     5. Login Form (Responsive)
     6. Simple Website Creation
+    7. Contact Us Form (Responsive)
