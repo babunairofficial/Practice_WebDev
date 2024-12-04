@@ -8,3 +8,4 @@ Practice web development skills
     5. Login Form (Responsive)
     6. Simple Website Creation
     7. Contact Us Form (Responsive)
+    8. Search Box
