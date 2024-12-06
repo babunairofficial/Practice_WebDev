@@ -42,5 +42,29 @@ html, body{
     padding-left: 20px;
     border-radius: 25px; 
     outline: none;
+    font-size: 17px;
     border: 1px solid lightgrey;
+    transition: all 0.3s ease;
+}
+.box form .field input:focus,
+.box form .field input:valid{
+    border-color: #4158d0;
+}
+.box form .field label{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 17px;
+    color: #999;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.box form .field input:focus ~ label,
+.box form .field input:valid ~ label{
+    top: 0%;
+    color: #4158d0;
+    font-size: 16px;
+    background: #fff;
+    transform: translateY(-50%);
 }
