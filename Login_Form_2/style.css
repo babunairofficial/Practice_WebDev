@@ -68,3 +68,33 @@ html, body{
     background: #fff;
     transform: translateY(-50%);
 }
+.box form .field input[type="submit"]{
+    color: #fff;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 0px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.box form .field input[type="submit"]:active{
+    transform: scale(0.95);
+}
+.box form .link{
+    color: #4158d0;
+    margin: 8px 0 0 10px;
+}
+.box form .sign-link{
+     text-align: center;
+     margin-top: 20px;
+     color: #262626;
+}
+.box form .link a,
+.box form .sign-link a{
+    color: #4158d0;
+    text-decoration: none;
+}
+.box form .link a:hover,
+.box form .sign-link a:hover{
+    text-decoration: underline;
+}
