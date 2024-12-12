@@ -10,3 +10,4 @@ Practice web development skills
     7. Contact Us Form (Responsive)
     8. Search Box
     9. Login form 2
+    10. Vertical Tab
