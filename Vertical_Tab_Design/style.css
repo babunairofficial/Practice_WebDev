@@ -28,11 +28,17 @@ body{
     font-weight: 500;
     margin-bottom: 20px;
 }
+.container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .container .content .list{
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 20%;
+    width: 25%;
+    margin-right: 50px;
 }
 .content .list label{
     height: 60px;
@@ -84,4 +90,35 @@ body{
 }
 .container input[type="radio"]{
     display: none;
+}
+.container .content .text-content{
+    width: 80%;
+    height: 100%;
+}
+.content .text-content .text{
+    display: none;
+}
+.content .text-content .home{
+    display: block;
+}
+#home:checked ~ .text-content .home,
+#blog:checked ~ .text-content .blog,
+#help:checked ~ .text-content .help,
+#code:checked ~ .text-content .code,
+#about:checked ~ .text-content .about{
+    display: block;
+}
+#blog:checked ~ .text-content .home,
+#help:checked ~ .text-content .home,
+#code:checked ~ .text-content .home,
+#about:checked ~ .text-content .home{
+    display: none;
+}
+.content .text-content .title{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.content .text-content p{
+    text-align: justify;
 }
