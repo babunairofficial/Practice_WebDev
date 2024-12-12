@@ -31,10 +31,11 @@ body{
 .container .content .list{
     display: flex;
     flex-direction: column;
+    position: relative;
+    width: 20%;
 }
 .content .list label{
     height: 60px;
-    width: 20%;
     font-size: 22px;
     font-weight: 500;
     border-radius: 12px;
@@ -43,4 +44,44 @@ body{
     margin: 5px 0;
     padding-left: 25px;
     color: #333;
+    z-index: 12;
+    transition: all 0.4s ease;
+}
+.content .list label:hover{
+    color: #6d50e2;
+}
+#home:checked ~ .list .home,
+#blog:checked ~ .list .blog,
+#help:checked ~ .list .help,
+#code:checked ~ .list .code,
+#about:checked ~ .list .about{
+    color: #fff;
+}
+.content .indicator{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #6d50e2;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+}
+#home:checked ~ .list .indicator{
+    top: 0;
+}
+#blog:checked ~ .list .indicator{
+    top: 70px;
+}
+#help:checked ~ .list .indicator{
+    top: 140px;
+}
+#code:checked ~ .list .indicator{
+    top: 210px;
+}
+#about:checked ~ .list .indicator{
+    top: 280px;
+}
+.container input[type="radio"]{
+    display: none;
 }
