@@ -11,3 +11,4 @@ Practice web development skills
     8. Search Box
     9. Login form 2
     10. Vertical Tab
+    11. Simplistic Portfolio Website
