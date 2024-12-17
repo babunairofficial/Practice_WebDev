@@ -12,3 +12,4 @@ Practice web development skills
     9. Login form 2
     10. Vertical Tab
     11. Simplistic Portfolio Website
+    12. Login Form 3 (Animated)
