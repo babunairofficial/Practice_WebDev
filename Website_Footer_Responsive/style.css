@@ -11,3 +11,24 @@ body{
     width: 100%;
     background: #EEECEB;
 }
+footer{
+    position: fixed;
+    background: #140b5c;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+footer .content{
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px 40px 40px 40px;
+}
+footer .content .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .top .logo-details{
+    color: #fff;
+    font-size: 30px;
+}
