@@ -32,3 +32,53 @@ footer .content .top{
     color: #fff;
     font-size: 30px;
 }
+.content .top .media-icons{
+    display: flex;
+}
+.content .top .media-icons a{
+    height: 40px;
+    width: 40px;
+    margin: 0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+.top .media-icons a:nth-child(1){
+    background: #4267B2;
+}
+.top .media-icons a:nth-child(1):hover{
+    color: #4267B2;
+    background: #fff;
+}
+.top .media-icons a:nth-child(2){
+    background: #1da1f2;
+}
+.top .media-icons a:nth-child(2):hover{
+    color: #1da1f2;
+    background: #fff;
+}
+.top .media-icons a:nth-child(3){
+    background: #e1306c;
+}
+.top .media-icons a:nth-child(3):hover{
+    color: #e1306c;
+    background: #fff;
+}
+.top .media-icons a:nth-child(4){
+    background: #0077b5;
+}
+.top .media-icons a:nth-child(4):hover{
+    color: #0077b5;
+    background: #fff;
+}
+.top .media-icons a:nth-child(5){
+    background: #ff0000;
+}
+.top .media-icons a:nth-child(5):hover{
+    color: #ff0000;
+    background: #fff;
+}
