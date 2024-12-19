@@ -132,3 +132,36 @@ footer .content .link-boxes .box{
     opacity: 1;
     text-decoration: none;
 }
+.content .link-boxes .input-box{
+    margin-right: 55px;
+}
+.link-boxes .input-box input{
+    height: 40px;
+    width: calc(100% + 55px);
+    outline: none;
+    border: 2px solid #afafb6;
+    background: #140b5c;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 5px;
+}
+.link-boxes .input-box input::placeholder{
+    color: #afafb6;
+    font-size: 16px;
+}
+.link-boxes .input-box input[type="button"]{
+    background: #fff;
+    color: #140b5c;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 4px 0;
+    opacity: 0.8px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.input-box input[type="button"]:hover{
+    opacity: 1;
+}
