@@ -1,2 +1,31 @@
 /*Import Google Font - Poppins*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #90caf9 10%, #1976d2 100%);
+}
+body::before,
+body::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+}
+body::before{
+    clip-path: circle(30% at left 20%);
+    background: linear-gradient(135deg, #1976d2 10%, #90caf9 100%);
+}
+body::after{
+    clip-path: circle(25% at right 80%);
+    background: linear-gradient(135deg, #1976d2 10%, #90caf9 100%);
+}
