@@ -13,3 +13,4 @@ Practice web development skills
     10. Vertical Tab
     11. Simplistic Portfolio Website
     12. Login Form 3 (Animated)
+    13. Website Footer (Responsive)
