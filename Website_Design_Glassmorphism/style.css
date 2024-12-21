@@ -87,3 +87,15 @@ header .navbar .menu{
 .navbar .buttons input:hover{
     transform: scale(0.97);
 }
+.text-content{
+    width: 40%;
+    margin: 100px 0 0 50px;
+}
+.text-content h2{
+    font-size: 27px;
+    font-weight: 600;
+}
+.text-content p{
+    margin-top: 10px;
+    font-size: 15px;
+}
