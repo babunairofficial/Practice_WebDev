@@ -41,6 +41,8 @@ header{
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
     border-top: 1px solid rgba(245, 245, 245, 0.5);
     border-left: 1px solid rgba(245, 245, 245, 0.5);
+    position: relative;
+    z-index: 12;
 }
 header .navbar{
     width: 100%;
@@ -98,4 +100,31 @@ header .navbar .menu{
 .text-content p{
     margin-top: 10px;
     font-size: 15px;
+}
+.play-button{
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+}
+.play-button .play-video{
+    font-size: 18px;
+    font-weight: 500px;
+}
+.play-button .play-video::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    background: #000;
+    left: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.play-button i{
+    height: 40px;
+    width: 40px;
+    border: 2px solid #000;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 6px;
 }
