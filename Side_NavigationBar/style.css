@@ -7,17 +7,47 @@
     font-family: 'Poppin', sans-serif;
 }
 .wrapper{
-    background: orange;
     height: 100%;
     width: 330px;
     position: relative;
+}
+input[type="checkbox"]{
+    display: none;
+}
+.wrapper .menu-btn{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 45px;
+    width: 45px;
+    z-index: 999;
+    color: #90caf9;
+    background: #1a3959;
+    border: 1px solid #0a1b2e;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 23px;
+    transition: all 0.3s ease;
+}
+#btn:checked ~ .menu-btn{
+    left: 247px;
+}
+#btn:checked ~ .menu-btn i:before{
+    content: "\f00d";
 }
 .wrapper #sidebar{
     position: fixed;
     height: 100%;
     width: 270px;
     background: #102841;
-    overflow: hidden;  
+    overflow: hidden;
+    left: -270px;
+    transition: all 0.3s ease;
+}
+#btn:checked ~ #sidebar{
+    left: 0;
 }
 #sidebar .title{
     color: #90caf9; 
