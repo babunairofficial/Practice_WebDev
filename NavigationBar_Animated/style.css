@@ -21,6 +21,7 @@ nav{
     display: flex;
     text-align: center;
     align-items: center;
+    position: relative;
     box-shadow: 0 5px 10px rgba(193, 182, 171, 0.25);
 }
 nav label{
@@ -33,6 +34,7 @@ nav label{
     margin: 0 5px;
     color: #394867;
     cursor: pointer;
+    z-index: 1;
     transition: all 0.3s ease;
 }
 nav label:hover{
@@ -40,4 +42,12 @@ nav label:hover{
 }
 nav label i{
     margin-right: 4px;
+}
+.slider{
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    background: #394867;
+    left: 0;
+    top: 0;
 }
