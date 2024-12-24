@@ -17,3 +17,4 @@ Practice web development skills
     14. Website Design (Glassmorphism)
     15. Side Navigation Bar
     16. Flip Card 3D
+    17. Navigation Bar (Animated)
