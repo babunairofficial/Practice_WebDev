@@ -13,6 +13,9 @@ body{
     align-items: center;
     background: #eef2f7;
 }
+input{
+    display: none;
+}
 nav{
     width: 600px;
     height: 60px;
@@ -50,4 +53,25 @@ nav label i{
     background: #394867;
     left: 0;
     top: 0;
+    border-radius: 5px;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+#home:checked ~ nav label.home,
+#blog:checked ~ nav label.blog,
+#code:checked ~ nav label.code,
+#help:checked ~ nav label.help,
+#about:checked ~ nav label.user{
+    color: #fff;
+}
+#blog:checked ~ nav .slider{
+    left: 20%;
+}
+#code:checked ~ nav .slider{
+    left: 40%;
+}
+#help:checked ~ nav .slider{
+    left: 60%;
+}
+#about:checked ~ nav .slider{
+    left: 80%;
 }
