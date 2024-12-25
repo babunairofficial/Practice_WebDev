@@ -19,3 +19,4 @@ Practice web development skills
     16. Flip Card 3D
     17. Navigation Bar (Animated)
     18. Login Form 4
+    19. Loading Animation
