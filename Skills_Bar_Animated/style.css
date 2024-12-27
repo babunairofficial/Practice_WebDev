@@ -45,6 +45,16 @@ body{
     width: 90%;
     border-radius: 6px;
     background: #4fe0c4;
+    animation: progress 0.4s ease-in-out forwards;
+}
+@keyframes progress {
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .skill-percent .tooltip{
     position: absolute;
