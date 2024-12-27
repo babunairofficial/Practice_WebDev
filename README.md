@@ -21,3 +21,4 @@ Practice web development skills
     18. Login Form 4
     19. Loading Animation
     20. Image Hover (Animation)
+    21. Skills Bar (Animated)
