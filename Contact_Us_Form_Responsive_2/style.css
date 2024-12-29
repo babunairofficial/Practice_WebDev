@@ -25,6 +25,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 25px 20px;
 }
 .content .image-box{
     max-width: 55%;
@@ -36,4 +37,8 @@ body{
     font-size: 22px;
     font-weight: 500;
     color: #2d4a13;
+}
+.content form{
+    width: 40%;
+    margin-right: 30px;
 }
