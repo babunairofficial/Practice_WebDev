@@ -111,10 +111,24 @@ body{
     pointer-events: none;
     transition: all 0.3s ease;
 }
-.content .message-box textarea:focus ~ label{
+.content .message-box textarea:focus ~ label,
+.content .message-box textarea:valid ~ label{
     left: 12px;
     top: -10px;
     color: #2d4a13;
     font-size: 14px;
     background: #fff;
+}
+.content .input-box input[type="submit"]{
+    color: #fff;
+    background: #2d4a13;
+    padding-left: 0;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+.content .input-box input[type="submit"]:hover{
+    background-color: #5a764b;
 }
