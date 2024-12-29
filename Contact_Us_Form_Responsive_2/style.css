@@ -82,3 +82,17 @@ body{
     color: #2d4a13;
     background: #fff;
 }
+.content .message-box{
+    min-height: 100px;
+    position: relative;
+}
+.content .message-box textarea{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    resize: none;
+    background: #f7f6f2;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    outline: none;
+}
