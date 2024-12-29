@@ -26,6 +26,12 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+.content .image-box{
+    max-width: 55%;
+}
+.content .image-box img{
+    width: 100%;
+}
 .content .topic{
     font-size: 22px;
     font-weight: 500;
