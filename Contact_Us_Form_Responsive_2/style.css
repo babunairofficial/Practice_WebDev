@@ -21,3 +21,13 @@ body{
     margin: 0 20px;
     box-shadow: 0 2px 12px rgba(78, 134, 24, 0.06);
 }
+.container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .topic{
+    font-size: 22px;
+    font-weight: 500;
+    color: #2d4a13;
+}
