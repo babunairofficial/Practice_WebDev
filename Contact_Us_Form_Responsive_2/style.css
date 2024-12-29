@@ -58,6 +58,11 @@ body{
     padding-left: 16px;
     background: #f7f6f2;
     border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+.content .input-box input:focus{
+    border-color: #2d4a13;
+    background-color: #fff;
 }
 .content .input-box label{
     position: absolute;
