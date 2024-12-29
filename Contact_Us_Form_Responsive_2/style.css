@@ -59,3 +59,19 @@ body{
     background: #f7f6f2;
     border: 2px solid transparent;
 }
+.content .input-box label{
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    color: #333c2e;
+    font-size: 15px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+.content .input-box input:focus ~ label{
+    top: 0;
+    left: 12px;
+    color: #2d4a13;
+    background: #fff;
+}
