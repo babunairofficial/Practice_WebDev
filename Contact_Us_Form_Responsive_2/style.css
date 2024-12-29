@@ -79,6 +79,7 @@ body{
 .content .input-box input:valid ~ label{
     top: 0;
     left: 12px;
+    display: 14px;
     color: #2d4a13;
     background: #fff;
 }
@@ -95,4 +96,25 @@ body{
     border: 2px solid transparent;
     border-radius: 6px;
     outline: none;
+    transition: all 0.3s ease;
+}
+.content .message-box textarea:focus{
+    border-color: #2d4a13;
+    background-color: #fff;
+}
+.content .message-box label{
+    position: absolute;
+    font-size: 16px;
+    color: #333c2e;
+    left: 18px;
+    top: 6px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.content .message-box textarea:focus ~ label{
+    left: 12px;
+    top: -10px;
+    color: #2d4a13;
+    font-size: 14px;
+    background: #fff;
 }
