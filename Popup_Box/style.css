@@ -52,3 +52,24 @@
 .alert-box p{
     font-size: 20px;
 }
+.alert-box .btns{
+    margin-top: 20px;
+}
+.alert-box label{
+    display: inline-flex;
+    background-color: grey;
+    height: 55px;
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 55px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+}
+.btns label:first-child{
+    background: lightseagreen;
+}
+.btns label:last-child{
+    background: orangered;
+}
