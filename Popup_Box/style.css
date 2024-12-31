@@ -32,3 +32,8 @@
     line-height: 97px; /*positioning in the center of the border*/
     font-size: 50px; /*increases the size of the icon*/
 }
+.alert-box header{
+    font-size: 35px;
+    font-weight: 500;
+    margin: 10px 0;
+}
