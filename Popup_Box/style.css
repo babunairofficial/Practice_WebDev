@@ -66,10 +66,18 @@
     cursor: pointer;
     color: #fff;
     border-radius: 5px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
 }
 .btns label:first-child{
     background: lightseagreen;
 }
+.btns label:first-child:hover{
+    background: green;
+}
 .btns label:last-child{
     background: orangered;
+}
+.btns label:last-child:hover{
+    background: darkred;
 }
