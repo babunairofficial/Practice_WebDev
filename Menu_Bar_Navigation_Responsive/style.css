@@ -17,7 +17,6 @@ nav{
 }
 nav .menu{
     max-width: 1270px;
-    background: pink;
     margin: auto;
     padding: 0 20px;
     display: flex;
@@ -29,4 +28,18 @@ nav .menu{
     font-weight: 600;
     text-decoration: none;
     color: #111959;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul a{
+    margin: 0 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #111959;
+    background: pink;
+    font-weight: 400;
+    display: inline-flex;
+    padding: 10px 12px;
 }
