@@ -5,3 +5,13 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background: #ECF3F9;
+}
+nav{
+    width: 100%;
+    padding: 12px 0;
+    background: #ECF3F9;
+    box-shadow: -3px -3px 7px #fff,
+                3px 3px 5px #d0d0d4;
+}
