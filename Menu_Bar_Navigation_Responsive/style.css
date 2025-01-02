@@ -15,3 +15,12 @@ nav{
     box-shadow: -3px -3px 7px #fff,
                 3px 3px 5px #d0d0d4;
 }
+nav .menu{
+    max-width: 1270px;
+    background: pink;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
