@@ -58,3 +58,29 @@ nav .menu{
 .menu ul a:hover{
     color: #3ad107;
 }
+@media (max-width: 940px){
+    .menu ul{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-width: 400px;
+        padding-top: 45px;
+        height: 100%;
+        background-color: #d0d0d4;
+        box-shadow: 0 5px 10px #7070de;
+        z-index: 12;
+    }
+    .menu ul a{
+        display: block;
+        font-size: 23px;
+        width: 100%;
+        margin-top: 30px;
+        box-shadow: none;
+        text-align: center;
+    }
+    .menu ul a:hover:before{
+        box-shadow: none;
+    }
+}
