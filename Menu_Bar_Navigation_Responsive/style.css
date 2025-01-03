@@ -38,8 +38,20 @@ nav .menu{
     text-decoration: none;
     font-size: 18px;
     color: #111959;
-    background: pink;
     font-weight: 400;
     display: inline-flex;
     padding: 10px 12px;
+    box-shadow: -3px -3px 7px #fff,
+                3px 3px 5px #d0d0d4;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.menu ul a:hover:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px #7070de;
 }
