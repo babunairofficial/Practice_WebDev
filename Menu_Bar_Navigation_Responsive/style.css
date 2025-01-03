@@ -55,3 +55,6 @@ nav .menu{
     bottom: 0;
     box-shadow: -3px -3px 7px #fff, 3px 3px 5px #7070de;
 }
+.menu ul a:hover{
+    color: #3ad107;
+}
