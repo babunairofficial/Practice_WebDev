@@ -40,7 +40,8 @@ body{
     padding: 10px 25px;
     border-radius: 6px;
     box-shadow: -3px -3px 7px #fff, 
-                3px 3px 5px #878d95;             
+                3px 3px 5px #878d95; 
+    position: relative;           
 }
 .side-bar ul i{
     margin-right: 10px;
@@ -63,4 +64,24 @@ body{
     box-shadow: -3px -3px 7px #fff, 
                 3px 3px 5px #878d95;
     position: relative;    
+}
+.side-bar ul a:hover::before,
+.media-icons a:hover::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset -3px 7px #fff, 
+                inset 3px 3px 5px #878d95;
+}
+.side-bar ul a:hover:before{
+    border-radius: 6px;
+}
+.side-bar ul a:hover{
+    color: rgb(197, 85, 219);
+}
+.media-icons a:hover:before{
+    border-radius: 50%;
 }
