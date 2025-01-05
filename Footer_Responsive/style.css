@@ -22,3 +22,6 @@ footer .content{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+footer .content .box{
+    width: 33%;
+}
