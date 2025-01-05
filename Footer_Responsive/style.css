@@ -13,3 +13,12 @@ footer{
     left: 0;
     background: #0307f1;
 }
+footer .content{
+    max-width: 1350px;
+    background-color: red;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
