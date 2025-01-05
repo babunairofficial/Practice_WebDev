@@ -25,3 +25,4 @@ Practice web development skills
     22. Contact Us Form 2 (Responsive)
     23. Popup Box
     24. Navigation Menu Bar (Neumorphism)
+    25. Side Bar Menu (Neumorphism)
