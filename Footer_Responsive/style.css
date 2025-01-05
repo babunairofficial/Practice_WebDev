@@ -6,3 +6,10 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #0307f1;
+}
