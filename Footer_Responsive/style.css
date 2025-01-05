@@ -32,3 +32,15 @@ footer .content .topic{
     margin-bottom: 16px;
 
 }
+footer .content p{
+    text-align: justify;
+}
+footer .content .lower .topic{
+    margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+    padding-right: 16px;
+}
+footer .content .middle{
+    padding-left: 80px;
+}
