@@ -25,3 +25,10 @@ footer .content{
 footer .content .box{
     width: 33%;
 }
+footer .content .topic{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 16px;
+
+}
