@@ -44,3 +44,17 @@ footer .content .lower i{
 footer .content .middle{
     padding-left: 80px;
 }
+footer .content .middle a{
+    line-height: 32px;
+}
+footer .content .right input[type="text"]{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    background: #010244;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 2px solid #222;
+}
