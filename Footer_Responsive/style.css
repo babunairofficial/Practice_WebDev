@@ -93,3 +93,18 @@ footer .content .media-icons a{
 .content .media-icons a:hover{
     border-color: #eb2f06;
 }
+footer .bottom{
+    width: 100%;  
+    text-align: right;
+    color: #fff;
+    padding: 0 40px 5px 0;
+}
+footer .bottom a{
+    color: #75eb06;
+}
+footer a{
+    transition: all 0.3s ease;
+}
+footer a:hover{
+    color: #eb2f06;
+}
