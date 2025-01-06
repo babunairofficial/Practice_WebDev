@@ -26,3 +26,4 @@ Practice web development skills
     23. Popup Box
     24. Navigation Menu Bar (Neumorphism)
     25. Side Bar Menu (Neumorphism)
+    26. Footer (Responsive)
