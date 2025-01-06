@@ -15,7 +15,6 @@ footer{
 }
 footer .content{
     max-width: 1350px;
-    background-color: red;
     margin: auto;
     padding: 20px;
     display: flex;
@@ -57,4 +56,16 @@ footer .content .right input[type="text"]{
     padding-left: 10px;
     font-size: 17px;
     border: 2px solid #222;
+}
+footer .content .right input[type="submit"]{
+    height: 42px;
+    width: 100%;
+    font-size: 18px;
+    background: #eb2f06;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 12px;
+    border: 2px solid #eb2f06;
 }
