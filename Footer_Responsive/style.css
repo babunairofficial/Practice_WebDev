@@ -78,3 +78,13 @@ footer .content .right input[type="submit"]{
     background: none;
     color: #fff;
 }
+footer .content .media-icons a{
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    border: 2px solid #222;
+    margin: 30px 5px 0 0;
+}
