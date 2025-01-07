@@ -16,12 +16,18 @@ body{
     position: relative;
     height: 330px;
     width: 620px;
+    perspective: 1000px;
 }
 .wrapper .flip-card{
     position: relative;
     height: 100%;
     width: 100%;
     background: turquoise;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+}
+.wrapper:hover .flip-card{
+    transform: rotateY(180deg);
 }
 .flip-card .card{
     display: flex;
@@ -33,6 +39,7 @@ body{
     border-top: 2px solid #005ccc;
     border-left: 2px solid #005ccc;
     box-shadow: 0 5px 10px rgba(43, 1, 102, 0.2);
+    backface-visibility: hidden;
 }
 .card span.circle,
 .card span.square{
