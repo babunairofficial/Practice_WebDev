@@ -34,6 +34,15 @@ body{
     border-left: 2px solid #005ccc;
     box-shadow: 0 5px 10px rgba(43, 1, 102, 0.2);
 }
+.card span.circle,
+.card span.square{
+    height: 110px;
+    width: 110px;
+    border: 10px solid #02226e;
+}
+.card span.circle{
+    border-radius: 50%;
+}
 .card span.triangle{
     position: relative;
     height: 0;
@@ -41,6 +50,7 @@ body{
     border-right: 60px solid transparent;
     border-left: 60px solid transparent;
     border-bottom: 110px solid #02226e;
+    margin-right: 16px;
 }
 .card span.triangle::before{
     content: "";
@@ -51,5 +61,5 @@ body{
     top: 20px;
     border-right: 40px solid transparent;
     border-left: 40px solid transparent;
-    border-bottom: 80px solid yellow;
+    border-bottom: 80px solid turquoise;
 }
