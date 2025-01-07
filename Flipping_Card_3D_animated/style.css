@@ -10,10 +10,24 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: lightcyan;
 }
 .wrapper{
     position: relative;
     height: 330px;
     width: 620px;
+}
+.wrapper .flip-card{
+    position: relative;
+    height: 100%;
+    width: 100%;
     background: turquoise;
+}
+.flip-card .card{
+    height: 100%;
+    width: 100%;
+    background: turquoise;
+    border-top: 2px solid #005ccc;
+    border-left: 2px solid #005ccc;
+    box-shadow: 0 5px 10px rgba(43, 1, 102, 0.2);
 }
