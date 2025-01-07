@@ -24,10 +24,32 @@ body{
     background: turquoise;
 }
 .flip-card .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     width: 100%;
     background: turquoise;
     border-top: 2px solid #005ccc;
     border-left: 2px solid #005ccc;
     box-shadow: 0 5px 10px rgba(43, 1, 102, 0.2);
+}
+.card span.triangle{
+    position: relative;
+    height: 0;
+    width: 0;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 110px solid #02226e;
+}
+.card span.triangle::before{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: -40px;
+    top: 20px;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-bottom: 80px solid yellow;
 }
