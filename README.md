@@ -27,3 +27,4 @@ Practice web development skills
     24. Navigation Menu Bar (Neumorphism)
     25. Side Bar Menu (Neumorphism)
     26. Footer (Responsive)
+    27. Flipping Card 3D (Animation) 2
