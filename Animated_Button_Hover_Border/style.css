@@ -18,3 +18,17 @@ html,body{
     text-align: center;
     border-radius: 10px;
 }
+.btn a span{
+    height: 88%;
+    width: 96%;
+    background: #111;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    line-height: 62px;
+    color: #f5f5f5;
+    font-size: 25px;
+}
