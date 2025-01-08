@@ -9,3 +9,12 @@ html,body{
     height: 100%;
     place-items: center;
 }
+.btn a{
+    position: relative;
+    display: block;
+    height: 70px;
+    width: 220px;
+    background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+    text-align: center;
+    border-radius: 10px;
+}
