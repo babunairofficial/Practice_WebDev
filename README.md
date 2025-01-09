@@ -29,3 +29,4 @@ Practice web development skills
     26. Footer (Responsive)
     27. Flipping Card 3D (Animation) 2
     28. Animated Button
+    29. Text Effect Animation
