@@ -18,3 +18,13 @@ html,body{
     align-items: center;
     padding: 20px;
 }
+.container .box{
+    width: calc(33% - 10px);
+    background: #b99c6b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
