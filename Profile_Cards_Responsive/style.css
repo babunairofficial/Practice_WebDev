@@ -17,6 +17,7 @@ html,body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    flex-wrap: wrap;
 }
 .container .box{
     width: calc(33% - 10px);
@@ -91,4 +92,15 @@ html,body{
 .btns button:first-child:hover{
     background: #c25b30;
     color: #fff;
+}
+@media (max-width:1045px){
+    .container .box{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:710px){
+    .container .box{
+        width: 100%;        
+    }
 }
