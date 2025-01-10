@@ -60,3 +60,35 @@ html,body{
     font-size: 16px;
     font-weight: 400;
 }
+.btns{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.btns button{
+    background: #c25b30;
+    width: 100%;
+    padding: 9px 0px;
+    outline: none;
+    border: 2px solid #c25b30;
+    border-radius: 5px;
+    cursor: ponter;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c25b30;
+    transition: all 0.3s linear;
+}
+.btns button:first-child{
+    background: none;
+    margin-right: 5px;
+}
+.btns button:last-child{
+    color: #fff;
+    margin-left: 5px;
+}
+.btns button:first-child:hover{
+    background: #c25b30;
+    color: #fff;
+}
