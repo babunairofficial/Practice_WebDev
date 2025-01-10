@@ -28,3 +28,18 @@ html,body{
     padding: 20px 20px;
     border-radius: 5px;
 }
+.box .image{
+    margin: 10px 0;
+    height: 150px;
+    width: 150px;
+    background: #c25b30;
+    padding: 3px;
+    border-radius: 50%;
+}
+.box .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #b99c6b;
+}
