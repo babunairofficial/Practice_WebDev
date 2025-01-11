@@ -30,3 +30,4 @@ Practice web development skills
     27. Flipping Card 3D (Animation) 2
     28. Animated Button
     29. Text Effect Animation
+    30. Profile Cards (Responsive)
