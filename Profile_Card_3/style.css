@@ -15,14 +15,12 @@ body{
     left: 50%;
     top: 52%;
     transform: translate(-50%, -50%);
-    background: red;
     text-align: center;
 }
 .main-box .content{
     position: relative;
     height: 100%;
     width: 100%;
-    background: grey;
 }
 .content .box{
     position: absolute;
@@ -81,11 +79,11 @@ body{
     content: '';
     height: 30px;
     width: 30px;
-    background-color: red;
     left: 50%;
     bottom: -12px;
     transform: translateX(-50%) rotate(45deg);
     z-index: -1;
+    background: #fff;
 }
 .content .image-box img{
     height: 100%;
