@@ -5,3 +5,22 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background: #34cddb;
+}
+.main-box{
+    height: 550px;
+    width: 440px;
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+    background: red;
+}
+.main-box .content{
+    position: relative;
+    height: 100%;
+    height: 100%;
+    width: 100%;
+    background: grey;
+}
