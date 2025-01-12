@@ -16,12 +16,42 @@ body{
     top: 52%;
     transform: translate(-50%, -50%);
     background: red;
+    text-align: center;
 }
 .main-box .content{
     position: relative;
     height: 100%;
     width: 100%;
     background: grey;
+}
+.content .box{
+    position: absolute;
+    background: red;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.content .box .share ,.cancel{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #29b9ad;
+    background: #fff;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.content .box .share{
+    opacity: 1;
 }
 .content .image-box{
     position: absolute;
