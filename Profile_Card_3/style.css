@@ -20,7 +20,23 @@ body{
 .main-box .content{
     position: relative;
     height: 100%;
-    height: 100%;
     width: 100%;
     background: grey;
+}
+.content .image-box{
+    position: absolute;
+    height: 450px;
+    width: 100%;
+    border-radius: 25px;
+    background: #fff;
+    padding: 10px;
+    left: 0;
+    bottom: 130px;
+    transition: all 0.4s ease;
+}
+.content .image-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
 }
