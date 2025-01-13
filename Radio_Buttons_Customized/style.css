@@ -33,6 +33,24 @@ html,body{
     align-items: center;
     justify-content: space-evenly;
 }
+.wrapper .option .dot{
+    height: 20px;
+    width: 20px;
+    background: #ecebeb;
+    border-radius: 50%;
+    position: relative;
+}
+.wrapper .option .dot::before{
+    position: absolute;
+    content: "";
+    left: 4px;
+    top: 4px;
+    height: 12px;
+    width: 12px;
+    background: #00aad9;
+    border-radius: 50%;
+    opacity: 0;
+}
 .wrapper .option span{
     color: lightslategray;
     font-size: 20px;
