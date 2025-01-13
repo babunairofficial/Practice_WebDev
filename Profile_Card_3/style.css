@@ -24,7 +24,6 @@ body{
 }
 .content .box{
     position: absolute;
-    background: red;
     height: 50px;
     width: 100%;
     left: 0;
@@ -90,4 +89,40 @@ body{
     width: 100%;
     object-fit: cover;
     border-radius: 25px;
+}
+.image-box .about{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.25);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 25px;
+}
+.about .details{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 35px;
+}
+.details .name,
+.details .job{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.details .name{
+    font-size: 22px;
+}
+.details .icons i{
+    font-size: 20px;
+    color: #fff;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    line-height: 43px;
+    margin: 14px 5px;
+    transition: all 0.3s ease;
 }
