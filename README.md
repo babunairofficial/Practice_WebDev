@@ -32,3 +32,4 @@ Practice web development skills
     29. Text Effect Animation
     30. Profile Cards (Responsive)
     31. Loading Animation
+    32. Profile Card 3
