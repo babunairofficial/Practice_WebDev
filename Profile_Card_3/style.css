@@ -126,3 +126,7 @@ body{
     margin: 14px 5px;
     transition: all 0.3s ease;
 }
+.details .icons i:hover{
+    background: #fff;
+    color: #34cddb;
+}
