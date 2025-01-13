@@ -33,3 +33,7 @@ html,body{
     align-items: center;
     justify-content: space-evenly;
 }
+.wrapper .option span{
+    color: lightslategray;
+    font-size: 20px;
+}
