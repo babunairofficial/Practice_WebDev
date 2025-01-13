@@ -32,6 +32,12 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    transition: all 0.3s ease;
+}
+#option-1:checked ~ .option-1,
+#option-2:checked ~ .option-2{
+    border-color: #00aad9;
+    background: #00aad9;
 }
 .wrapper .option .dot{
     height: 20px;
@@ -39,6 +45,11 @@ html,body{
     background: #ecebeb;
     border-radius: 50%;
     position: relative;
+        transition: all 0.3s ease;
+}
+#option-1:checked ~ .option-1 .dot,
+#option-2:checked ~ .option-2 .dot{
+    background: #fff;
 }
 .wrapper .option .dot::before{
     position: absolute;
@@ -50,8 +61,22 @@ html,body{
     background: #00aad9;
     border-radius: 50%;
     opacity: 0;
+    transform: scale(1.5);
+    transition: all 0.3s ease;
+}
+#option-1:checked ~ .option-1 .dot::before,
+#option-2:checked ~ .option-2 .dot::before{
+    opacity: 1;
+    transform: scale(1);
 }
 .wrapper .option span{
     color: lightslategray;
     font-size: 20px;
+}
+#option-1:checked ~ .option-1 span,
+#option-2:checked ~ .option-2 span{
+    color: #fff;
+}
+.wrapper input[type="radio"]{
+    display: none;
 }
