@@ -8,3 +8,9 @@
 body{
     background: #097ae3;
 }
+.main-box{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
