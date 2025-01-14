@@ -53,3 +53,20 @@ body{
     opacity: 1;
     pointer-events: auto;
 }
+.icons{
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    height: 110%;
+    width: 140%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 35px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.3s ease;
+}
