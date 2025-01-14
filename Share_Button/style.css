@@ -46,3 +46,10 @@ body{
 .main-box label:hover{
     letter-spacing: 5px;
 }
+#check{
+    display: none;
+}
+#check:checked ~ label::before{
+    opacity: 1;
+    pointer-events: auto;
+}
