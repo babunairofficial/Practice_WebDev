@@ -70,6 +70,15 @@ body{
     pointer-events: none;
     transition: all 0.3s ease;
 }
+.icons::before{
+    position: absolute;
+    content: '';
+    height: 18px;
+    width: 18px;
+    background: #fff;
+    bottom: -9px;
+    transform: rotate(45deg);
+}
 #check:checked ~ .icons{
     opacity: 1;
     pointer-events: auto;
