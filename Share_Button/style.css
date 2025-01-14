@@ -43,3 +43,6 @@ body{
     opacity: 0;
     pointer-events: none;
 }
+.main-box label:hover{
+    letter-spacing: 5px;
+}
