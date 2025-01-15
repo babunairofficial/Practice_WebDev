@@ -18,3 +18,15 @@ body{
     background: #fff;
     display: flex;
 }
+.box .right{
+    display: flex;
+}
+.container .logo{
+    height: 100px;
+    width: 100px;
+}
+.container .logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
