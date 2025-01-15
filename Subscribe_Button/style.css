@@ -9,3 +9,8 @@ body{
     height: 100vh;
     background: #ceefec;
 }
+.container{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
