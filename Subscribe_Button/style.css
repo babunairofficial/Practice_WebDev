@@ -17,16 +17,31 @@ body{
 .container .box{
     background: #fff;
     display: flex;
-}
-.box .right{
-    display: flex;
+    border-radius: 6px;
+    padding: 15px 25px 15px 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .container .logo{
     height: 100px;
     width: 100px;
+    margin-right: 15px;
 }
 .container .logo img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.box .right{
+    display: flex;
+    flex-direction: column;
+}
+.box .right .text-1{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+.box .right .text-2{
+    font-size: 14px;
+    color: grey;
+    margin: 2px 0 8px 0;
 }
