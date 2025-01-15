@@ -8,13 +8,55 @@
 body{
     height: 100vh;
     background: #ceefec;
+    overflow: hidden;
 }
 .container{
     position: absolute;
     right: 30px;
     bottom: 30px;
 }
-.container i{
+.container .box{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    padding: 15px 25px 15px 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    animation: show_box 0.8s ease forwards;
+}
+@keyframes show_box {
+    0%{
+        transform: translateX(0%);
+    }
+    40%{
+        transform: translateX(5%);
+    }
+    80%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-5px);
+    }
+}
+#hide:checked ~ .box{
+    animation: hide_box 0.8s ease forwards;
+}
+@keyframes hide_box{
+    0%{
+        transform: translateX(0%);
+    }
+    40%{
+        transform: translateX(5%);
+    }
+    80%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(calc(100% + 35px));
+    }
+}
+.container .box i{
     position: absolute;
     right: 15px;
     top: 10px;
@@ -24,14 +66,6 @@ body{
 }
 .container i:hover{
     color: black;
-}
-.container .box{
-    background: #fff;
-    display: flex;
-    align-items: center;
-    border-radius: 6px;
-    padding: 15px 25px 15px 15px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .container .logo{
     height: 90px;
@@ -70,4 +104,7 @@ body{
 }
 .box .right a:hover{
     background-color: blue;
+}
+.container #hide{
+    display: none;
 }
