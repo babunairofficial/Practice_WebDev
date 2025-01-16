@@ -13,3 +13,23 @@ body{
     background: lightgray;
     justify-content: center;
 }
+.container{
+    display: flex;
+    max-width: 720px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    justify-content: space-between;
+    position: relative;
+}
+.container::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0 12px 12px 0;
+    clip-path: circle(65% at right 35%);
+    background: linear-gradient(135deg, #fdd99b 10%, #f68c41 100%);
+}
