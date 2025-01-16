@@ -85,6 +85,9 @@ body{
     cursor: pointer;
     transition: all 0.3s ease ;
 }
+.box.one .button1 button:hover{
+    transform: scale(0.98)
+}
 .container .box.two .image-box{
     position: relative;
     text-align: right;
