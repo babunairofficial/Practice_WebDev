@@ -45,6 +45,10 @@ body{
     font-size: 13px;
     font-weight: 500;
 }
+
+.box.one .details .rating{
+    color: orange;
+}
 .container .box.two .image-box{
     position: relative;
     text-align: right;
