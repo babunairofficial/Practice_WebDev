@@ -121,3 +121,17 @@ body{
     font-weight: 400;
     color: #000;
 }
+.box.two .info .button2{
+    margin: 17px 0;
+}
+.box.two .info .button2 button{
+    outline: none;
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #fff;
+}
