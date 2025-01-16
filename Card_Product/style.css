@@ -111,3 +111,8 @@ body{
     font-weight: 600;
     color: red;
 }
+.box.two .info .name{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
