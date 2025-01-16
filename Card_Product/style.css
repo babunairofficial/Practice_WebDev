@@ -45,9 +45,11 @@ body{
     font-size: 13px;
     font-weight: 500;
 }
-
 .box.one .details .rating{
     color: orange;
+}
+.box.one .details .price-box{
+    margin-top: 16px;
 }
 .container .box.two .image-box{
     position: relative;
