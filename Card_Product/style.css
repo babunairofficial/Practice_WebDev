@@ -116,3 +116,8 @@ body{
     font-weight: 500;
     color: #fff;
 }
+.box.two .info .shipping{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
