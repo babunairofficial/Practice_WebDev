@@ -33,6 +33,18 @@ body{
     clip-path: circle(65% at right 35%);
     background: linear-gradient(135deg, #fdd99b 10%, #f68c41 100%);
 }
+.container .box.one{
+    padding: 35px 5px 0 35px;
+}
+.box.one .details .topic{
+    font-size: 30px;
+    font-weight: 500;
+}
+.box.one .details p{
+    color: grey;
+    font-size: 13px;
+    font-weight: 500;
+}
 .container .box.two .image-box{
     position: relative;
     text-align: right;
