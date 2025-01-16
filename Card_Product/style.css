@@ -103,3 +103,11 @@ body{
     width: 100%;
     object-fit: cover;
 }
+.box.two .info{
+    margin: 0 35px 0 0;
+}
+.box.two .info .brand{
+    font-size: 17px;
+    font-weight: 600;
+    color: red;
+}
