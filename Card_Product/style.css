@@ -70,6 +70,21 @@ body{
     color: darkorange;
     font-size: 30px;
 }
+.details .button1{
+    margin-top: 55px;
+}
+.box.one .button1 button{
+    outline: none;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    padding: 8px 16px;
+    background: teal;
+    cursor: pointer;
+    transition: all 0.3s ease ;
+}
 .container .box.two .image-box{
     position: relative;
     text-align: right;
