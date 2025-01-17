@@ -37,3 +37,4 @@ Practice web development skills
     34. Share Button
     35. Subscribe Button
     36. Card (Product)
+    37. Navigation Links Animation
