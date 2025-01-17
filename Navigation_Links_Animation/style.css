@@ -26,3 +26,6 @@ body{
     font-weight: 400;
     text-align: justify;
 }
+.container p a{
+    text-decoration: none;
+}
