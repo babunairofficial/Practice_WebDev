@@ -86,3 +86,7 @@ body{
     color: #fff;
     cursor: pointer;
 }
+.container .one .top,
+.container .one button{
+    background: rgb(2, 169, 2);
+}
