@@ -38,3 +38,4 @@ Practice web development skills
     35. Subscribe Button
     36. Card (Product)
     37. Navigation Links Animation
+    38. Pricing Table (Responsive)
