@@ -29,7 +29,6 @@ body{
 }
 .container .card .top{
     height: 130px;
-    background: red;
     color: #fff;
     padding: 12px 0 0 0;
     clip-path: polygon(0 0, 100% 0, 100% 53%, 49% 100%, 0 53%);
@@ -44,7 +43,6 @@ body{
 .container .card .top .price-sec .price{
     font-size: 45px;
 }
-
 .container .card .info{
     font-size: 16px;
     margin-top: 20px;
@@ -79,12 +77,12 @@ body{
     display: block;
     margin-top: 30px;
     width: 100%;
-    background: red;
     border-radius: 3px;
     letter-spacing: 2px;
     font-size: 18px;
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 .container .one .top,
 .container .one button{
@@ -97,4 +95,7 @@ body{
 .container .three .top,
 .container .three button{
     background: blueviolet;
+}
+.container .card button:hover{
+    filter: brightness(90%);
 }
