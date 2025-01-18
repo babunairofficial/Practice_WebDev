@@ -66,3 +66,9 @@ body{
     left: 0;
     top: -12px;
 }
+.container .card .plan i{
+    color: rgb(6, 189, 6);
+}
+.container .card .plan i.fa-times{
+    color: tomato;
+}
