@@ -72,3 +72,17 @@ body{
 .container .card .plan i.fa-times{
     color: tomato;
 }
+.container .card button{
+    outline: none;
+    border: none;
+    height: 42px;
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    background: red;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
