@@ -90,3 +90,7 @@ body{
 .container .one button{
     background: rgb(2, 169, 2);
 }
+.container .two .top,
+.container .two button{
+    background: orangered;
+}
