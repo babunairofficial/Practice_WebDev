@@ -99,3 +99,14 @@ body{
 .container .card button:hover{
     filter: brightness(90%);
 }
+@media (max-width:1000px){
+    .container .card{
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:715px){
+    .container .card{
+        width: 100%
+    }
+}
