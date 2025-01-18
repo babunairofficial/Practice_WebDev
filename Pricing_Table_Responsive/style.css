@@ -12,3 +12,17 @@ body{
     justify-content: center;
     background: #6493f9;
 }
+.container{
+    max-width: 1090;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .card{
+    width: calc(33% - 20px);
+    background: #fff;
+    text-align: center;
+    padding: 15px 30px 30px 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
