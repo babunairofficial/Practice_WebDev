@@ -11,6 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     background: #6493f9;
+    padding: 20px;
 }
 .container{
     max-width: 1090;
@@ -25,4 +26,11 @@ body{
     text-align: center;
     padding: 15px 30px 30px 30px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.container .card .top{
+    height: 130px;
+    background: red;
+    color: #fff;
+    padding: 12px 0 0 0;
+    clip-path: polygon(0 0, 100% 0, 100% 53%, 49% 100%, 0 53%);
 }
