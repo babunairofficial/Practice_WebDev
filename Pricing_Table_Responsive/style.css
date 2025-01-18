@@ -55,4 +55,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+.container .card .details .plan::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: paleturquoise;
+    left: 0;
+    top: -12px;
 }
