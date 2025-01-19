@@ -44,3 +44,10 @@ body{
     font-size: 70px;
     color: white;
 }
+.wrapper .bottom{
+    padding: 30px;
+}
+.wrapper .button .info{
+    font-size: 20px;
+    font-weight: 500;
+}
