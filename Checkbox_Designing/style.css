@@ -11,3 +11,12 @@ html,body{
     place-items: center;
     background: dodgerblue;
 }
+.checkbox{
+    height: 80px;
+    width: 270px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
