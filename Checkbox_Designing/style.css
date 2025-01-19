@@ -20,3 +20,22 @@ html,body{
     padding: 20px;
     justify-content: space-between;
 }
+.checkbox input{ /*designing checkbox*/
+    position: relative;
+    height: 40px;
+    width: 90px;
+    outline: none;
+    background: lightgray;
+    appearance: none; /*used this instead of -webkit-appearance*/
+    border-radius: 50px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.checkbox input:before{ /*designing checkboxbutton*/
+    height: 100%;
+    width: 40px;
+    position: absolute;
+    content: "";
+    background: whitesmoke;
+    border-radius: 50px;
+    transform: scale(0.85);
+}
