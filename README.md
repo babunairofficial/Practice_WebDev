@@ -39,3 +39,4 @@ Practice web development skills
     36. Card (Product)
     37. Navigation Links Animation
     38. Pricing Table (Responsive)
+    39. Checkbox Designing
