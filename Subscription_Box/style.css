@@ -68,5 +68,12 @@ body{
     border: 2px solid ;
 }
 .wrapper .bottom input[type="text"]:focus{
-    border-color: purple
+    border-color: purple;
+}
+.wrapper .bottom input[type="submit"]{
+    border: none;
+    background: purple;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
