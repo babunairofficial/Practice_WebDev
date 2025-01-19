@@ -67,7 +67,8 @@ body{
     padding-left: 20px;
     border: 2px solid ;
 }
-.wrapper .bottom input[type="text"]:focus{
+.wrapper .bottom input[type="text"]:focus,
+.wrapper .bottom input[type="text"]:valid{
     border-color: purple;
 }
 .wrapper .bottom input[type="submit"]{
@@ -76,4 +77,7 @@ body{
     color: white;
     letter-spacing: 1px;
     cursor: pointer;
+}
+.wrapper .bottom input[type="submit"]:hover{
+    background: orange;
 }
