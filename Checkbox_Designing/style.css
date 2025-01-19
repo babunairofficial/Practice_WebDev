@@ -48,5 +48,15 @@ input:checked{
 }
 input:checked::before{
     left: 50px;
-    
+}
+.checkbox .text::before{
+    content: "Disabled";
+    font-size: 25px;
+    font-weight: 500;
+    color: lightgray;
+}
+input:checked ~ .text::before{
+    content: "Enabled";
+    font-size: 26px;
+    color: purple;
 }
