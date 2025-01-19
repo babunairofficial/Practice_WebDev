@@ -63,3 +63,10 @@ body{
     border-radius: 25px;
     outline: none;
 }
+.wrapper .bottom input[type="text"]{
+    padding-left: 20px;
+    border: 2px solid ;
+}
+.wrapper .bottom input[type="text"]:focus{
+    border-color: purple
+}
