@@ -30,3 +30,8 @@ html, body{
     font-weight: bold;
     margin-top: 18px;
 }
+.right .stars{
+    font-size: 18px;
+    color: palevioletred;
+    margin-top: 8px;
+}
