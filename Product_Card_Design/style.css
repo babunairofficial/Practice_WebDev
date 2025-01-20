@@ -52,3 +52,12 @@ html, body{
     cursor: pointer;
     transition: all 0.3s linear;
 }
+.right h1{
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    margin-left: 12px;
+}
+button:hover{
+    transform: scale(0.9);
+}
