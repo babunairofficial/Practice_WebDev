@@ -35,6 +35,12 @@ body{
     border-radius: 5px;
     cursor: pointer;
     border: 2px solid transparent;
+    transition: all 0.25s ease;
+}
+#one:checked ~ label.first,
+#two:checked ~ label.second,
+#three:checked ~ label.third{
+    border-color: blue;
 }
 .card label.box:hover{
     background: lightpink;
@@ -52,5 +58,15 @@ body{
     margin-right: 15px;
     border: 5px solid transparent;
     display: inline-block;
+    transition: all 0.25s ease;
     box-shadow: inset -4px -4px 10px rgba(0, 0, 0, 0.2);
+}
+#one:checked ~ label.first .circle,
+#two:checked ~ label.second .circle,
+#three:checked ~ label.third .circle{
+    border-color: blueviolet;
+    background: white;
+}
+.card input[type="radio"]{
+    display: none;
 }
