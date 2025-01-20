@@ -13,7 +13,7 @@ body{
     background: linear-gradient(to bottom, lightblue 0%, turquoise 100%);
 }
 .card{
-    max-width: 350px;
+    max-width: 400px;
     width: 100%;
     background: white;
     border-radius: 5px;
@@ -38,6 +38,11 @@ body{
 }
 .card label.box:hover{
     background: lightpink;
+}
+.card label.box .course{
+    display: flex;
+    width: 100%;
+    align-items: center;
 }
 .card label.box .circle{
     height: 22px;
