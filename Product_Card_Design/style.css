@@ -18,3 +18,10 @@ html, body{
     align-items: center;
     justify-content: center;
 }
+.wrapper .right{
+    background: #fff;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+} 
