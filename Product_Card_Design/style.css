@@ -11,3 +11,10 @@ html, body{
     place-items: center;
     background: palevioletred;
 }
+.wrapper{
+    display: flex;
+    height: 300px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+}
