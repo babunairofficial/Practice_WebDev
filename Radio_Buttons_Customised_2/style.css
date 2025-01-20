@@ -27,3 +27,15 @@ body{
 .card .content{
     margin-top: 20px;
 }
+.card label.box{
+    background: lightgrey;
+    display: flex;
+    margin-top: 12px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.card label.box:hover{
+    background: lightpink;
+}
