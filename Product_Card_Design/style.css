@@ -35,3 +35,7 @@ html, body{
     color: palevioletred;
     margin-top: 8px;
 }
+.right .about p{
+    color: grey;
+    font-size: 17px;
+}
