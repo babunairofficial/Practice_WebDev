@@ -24,6 +24,7 @@ html, body{
     width: 50%;
     text-align: center;
     border-radius: 5px 0 0 5px;
+    z-index: 12;
 } 
 .wrapper .right .logo{
     font-size: 30px;
@@ -79,9 +80,14 @@ button:hover{
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
-    padding: 10px 26px ;
+    padding: 10px 26px;
+    margin-left: -300px;
+    transition: 0.4s;
 }
 ul li{
     font-size: 15px;
     color: white;
+}
+.left:hover ul{
+    margin-left: 0px;
 }
