@@ -20,3 +20,22 @@ html,body{
     cursor: pointer;
     box-shadow: opx 5px 3px 0px rgba(0, 0, 0, 0.35);
 }
+.main_div::before{
+    content: 'share';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    color: #34495e;
+    font-size: 27px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s linear;
+}
+.main_div:hover::before{
+    left: -250px;
+}
