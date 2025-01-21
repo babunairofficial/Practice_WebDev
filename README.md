@@ -42,3 +42,4 @@ Practice web development skills
     39. Checkbox Designing
     40. Subscription Box (email subscription)
     41. Radio Buttons Customised 2
+    42. Product Card Design
