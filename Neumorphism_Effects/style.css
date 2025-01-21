@@ -11,3 +11,14 @@ html, body{
     place-items: center;
     background: whitesmoke;
 }
+.icons a{
+    background: white;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    margin: 0 10px;
+    display: inline-flex;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: -3px -3px 7px white, 3px 3px 5px rgb(235, 199, 199);
+}
