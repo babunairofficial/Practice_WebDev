@@ -61,3 +61,12 @@ html, body{
 button:hover{
     transform: scale(0.9);
 }
+.left{
+    background: url('iPhone_16.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 50%;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
