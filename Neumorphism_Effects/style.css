@@ -22,3 +22,16 @@ html, body{
     transition: all 0.3s ease;
     box-shadow: -3px -3px 7px white, 3px 3px 5px rgb(235, 199, 199);
 }
+.icons a:hover:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background: lightgrey;
+    box-shadow: inset -3px -3px 7px white,
+                inset 3px 3px 5px grey;
+
+}
