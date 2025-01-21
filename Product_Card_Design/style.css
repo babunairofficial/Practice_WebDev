@@ -70,3 +70,18 @@ button:hover{
     border-radius: 0 5px 5px 0;
     cursor: pointer;
 }
+.left ul{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding: 10px 26px ;
+}
+ul li{
+    font-size: 15px;
+    color: white;
+}
