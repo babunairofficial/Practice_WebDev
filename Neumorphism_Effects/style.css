@@ -34,7 +34,7 @@ html, body{
     background: lightgrey;
     box-shadow: inset -3px -3px 7px white,
                 inset 3px 3px 5px grey;
-                
+
 }
 .icons a i{
     position: relative;
@@ -44,4 +44,22 @@ html, body{
     height: 100%;
     line-height: 60px;
     font-size: 25px;
+}
+.icons a:hover i{
+    transform: scale(0.9);
+}
+.icons a:nth-child(1){
+    color: #4267B2;
+}
+.icons a:nth-child(2){
+    color: #1da1f2;
+}
+.icons a:nth-child(3){
+    color: #e1306c;
+}
+.icons a:nth-child(4){
+    color: #333;
+}
+.icons a:nth-child(5){
+    color: #ff0000;
 }
