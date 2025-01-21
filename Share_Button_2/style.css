@@ -39,3 +39,26 @@ html,body{
 .main_div:hover::before{
     left: -250px;
 }
+.main_div .social_media{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.4s ease-in-out;
+}
+.main_div:hover .social_media{
+    right: 0;
+}
+.social_media i{
+    font-size: 22px;
+    color: #46473E;
+    transition: all 0.3s linear;
+}
+.social_media i:hover{
+    transform: scale(1.5);
+}
