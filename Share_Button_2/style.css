@@ -11,3 +11,12 @@ html,body{
     place-items: center;
     background:  #46473E;
 }
+.main_div{
+    position: relative;
+    height: 65px;
+    width: 250px;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: opx 5px 3px 0px rgba(0, 0, 0, 0.35);
+}
