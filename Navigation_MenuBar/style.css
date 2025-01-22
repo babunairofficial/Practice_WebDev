@@ -40,7 +40,19 @@ nav ul li a.active{
     color: black;
     background: white;
 }
+nav .menu-btn i{
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
 @media (max-width: 940px){
+    nav{
+        background: grey;
+    }
+    nav .menu-btn i{
+        display: block;
+    }
     nav ul{
         position: fixed;
         top: 80px;
