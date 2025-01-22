@@ -46,6 +46,9 @@ nav .menu-btn i{
     cursor: pointer;
     display: none;
 }
+#click{
+    display: none;
+}
 @media (max-width: 940px){
     nav{
         background: grey;
@@ -53,15 +56,22 @@ nav .menu-btn i{
     nav .menu-btn i{
         display: block;
     }
+    #click:checked ~ .menu-btn i:before{
+        content: "\f00d";
+    }
     nav ul{
         position: fixed;
         top: 80px;
-        left: 0;
+        left: -100%;
         background: #111;
         height: 100vh;
         width: 100%;
         display: block;
         text-align: center;
+        transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+        left: 0%;
     }
     nav ul li{
         margin: 40px 0;
