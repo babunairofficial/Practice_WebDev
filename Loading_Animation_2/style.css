@@ -5,3 +5,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.loader{
+    height: 200px;
+    width: 200px;
+    border: 12px solid lightgrey;
+    border-radius: 50%;
+    border-right-color: lightseagreen;
+    animation: spin 1s ease infinite;
+}
