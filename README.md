@@ -46,3 +46,4 @@ Practice web development skills
     43. Neumorphism Effects on Icons
     44. Share Button 2 
     45. Navigation Menu Bar (Responsive) 3
+    46. Loading Animation 2
