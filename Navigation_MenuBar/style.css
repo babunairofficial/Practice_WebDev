@@ -5,3 +5,19 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+nav{
+    height: 80px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
