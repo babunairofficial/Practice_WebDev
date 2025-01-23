@@ -64,3 +64,14 @@ body{
 form input.button:hover{
     background: seagreen;
 }
+.signup{
+    font-size: 17px;
+    text-align: center;
+}
+.signup label{
+    color: lightseagreen;
+    cursor: pointer;
+}
+.signup label:hover{
+   text-decoration: underline;
+}
