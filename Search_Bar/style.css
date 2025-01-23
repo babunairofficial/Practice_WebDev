@@ -57,3 +57,21 @@ body{
 .input-box .button.clicked{
     transform: translateY(-50%) scale(0.98);
 }
+@media screen and (max-width: 500px) {
+    .input-box{
+        height: 66px;
+        margin: 0 8px;
+    }
+    .input-box i{
+        left: 12px;
+        font-size: 25px;
+    }
+    .input-box input{
+        padding: 0 112px 0 50px;
+    }
+    .input-box .button{
+        right: 12px;
+        font-size: 14px;
+        padding: 8px 18px;
+    }
+}
