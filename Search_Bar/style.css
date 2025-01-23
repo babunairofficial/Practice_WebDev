@@ -12,3 +12,18 @@ body{
     justify-content: center;
     background: cornflowerblue;
 }
+.input-box{
+    position: relative;
+    height: 76px;
+    max-width: 900px;
+    width: 100%;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.input-box i{
+    position: absolute;
+}
+.input-box i{
+    left: 15px;
+}
