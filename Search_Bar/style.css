@@ -54,3 +54,6 @@ body{
     background-color: cornflowerblue;
     cursor: pointer;
 }
+.input-box .button.clicked{
+    transform: translateY(-50%) scale(0.98);
+}
