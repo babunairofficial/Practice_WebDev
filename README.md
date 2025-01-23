@@ -47,3 +47,4 @@ Practice web development skills
     44. Share Button 2 
     45. Navigation Menu Bar (Responsive) 3
     46. Loading Animation 2
+    47. Search Bar
