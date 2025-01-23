@@ -27,3 +27,7 @@ body{
 .input-box i{
     left: 15px;
 }
+.input-box input{
+    height: 100%;
+    width: 100%;
+}
