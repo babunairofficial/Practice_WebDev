@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background: white;
+    color: white;
 }
 .container{
     width: 100%;
@@ -14,4 +14,32 @@ body{
     background-image: url(batman.png);
     background-position: center;
     background-size: cover;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    font-size: 40px;
+}
+.logo span{
+    color: red;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: red;
 }
