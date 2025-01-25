@@ -12,3 +12,11 @@
     justify-content: center;
     background: lightseagreen;
 }
+.spinner{
+    width: 80px;
+    height: 80px;
+    border: 7px solid white;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spinner  0.7s linear infinite;
+}
