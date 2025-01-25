@@ -68,3 +68,20 @@ nav ul li a:hover{
     margin-top: 10px;
     line-height: 25px;
 }
+.link{
+    margin-top: 30px;
+}
+.link .hire{
+    color: black;
+    background: white;
+    text-decoration: none;
+    padding: 9px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.link .hire:hover{
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
