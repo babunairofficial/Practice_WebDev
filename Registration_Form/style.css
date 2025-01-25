@@ -54,6 +54,26 @@ body{
     display: flex;
     column-gap: 15px;
 }
+.form .gender-box{
+    margin-top: 20px;
+}
+.gender-box h3{
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.form :where(.gender-option, .gender){
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+.form .gender{
+    column-gap: 5px;
+}
+.form :where(.gender input, .gender label){
+    cursor: pointer;
+}
 @media screen and (max-width: 500px) {
     .form .column{
         flex-wrap: wrap;
