@@ -51,3 +51,4 @@ Practice web development skills
     48. Login & Registration Form
     49. Website (Portfoliio)
     50. Navigation Menu Bar (Animation) 4
+    51. Loading Spinner
