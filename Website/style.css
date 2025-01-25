@@ -57,3 +57,14 @@ nav ul li a:hover{
     border-radius: 6px;
     font-size: 18px;
 }
+.content{
+    margin-top: 12%;
+    max-width: 600px;
+}
+.content h3{
+    font-size: 55px;
+}
+.content p{
+    margin-top: 10px;
+    line-height: 25px;
+}
