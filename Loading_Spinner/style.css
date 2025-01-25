@@ -20,3 +20,9 @@
     border-radius: 50%;
     animation: spinner  0.7s linear infinite;
 }
+@keyframes spinner {
+    from{}
+    to{
+        transform: rotate(360deg);
+    }    
+}
