@@ -75,6 +75,17 @@ body{
 .form :where(.gender input, .gender label){
     cursor: pointer;
 }
+.address :where(input, .select-box){
+    margin-top: 15px;
+}
+.select-box select{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: grey;
+    font-size: 1rem;
+}
 @media screen and (max-width: 500px) {
     .form .column{
         flex-wrap: wrap;
