@@ -54,3 +54,4 @@ Practice web development skills
     51. Loading Spinner
     52. Registration Form
     53. Toggle Button
+    54. Loader like google
