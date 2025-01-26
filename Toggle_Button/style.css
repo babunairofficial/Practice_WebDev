@@ -15,4 +15,22 @@ body{
     height: 155px;
     width: 300px;
     background: lightgrey;
+    border-radius: 100px;
+}
+.toggle-btn .icon{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    height: 120px;
+    width: 120px;
+    font-size: 70px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1 );
 }
