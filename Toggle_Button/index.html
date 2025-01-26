@@ -16,5 +16,14 @@
             <i class='bx bxs-lock-open'></i>
         </div>
     </div>
+
+    <script>
+        const toggleBtn = document.querySelector(".toggle-btn");
+        const lockIcon = document.querySelector(".icon i");
+
+        toggleBtn.addEventListener("click", () =>{
+            toggleBtn.classList.toggle("active");
+        });
+    </script>
 </body>
 </html>
