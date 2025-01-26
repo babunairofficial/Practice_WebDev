@@ -20,3 +20,12 @@ body{
     border-radius: 50%;
     background: darkcyan;
 }
+.dot:nth-child(2){
+    background: red;
+}
+.dot:nth-child(3){
+    background: gold;
+}
+.dot:nth-child(4){
+    background: green;
+}
