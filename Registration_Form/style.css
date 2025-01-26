@@ -86,6 +86,22 @@ body{
     color: grey;
     font-size: 1rem;
 }
+.form button{
+    height: 55px;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    background-color: blueviolet;
+}
+.form button:hover{
+    background-color: purple;
+}
 @media screen and (max-width: 500px) {
     .form .column{
         flex-wrap: wrap;
