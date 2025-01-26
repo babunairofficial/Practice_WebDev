@@ -50,6 +50,9 @@ body{
     border-radius: 6px;
     padding: 0 15px;
 }
+.input-box input:focus{
+    box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
 .form .column{
     display: flex;
     column-gap: 15px;
@@ -71,6 +74,9 @@ body{
 }
 .form .gender{
     column-gap: 5px;
+}
+.gender input{
+    accent-color: blueviolet;
 }
 .form :where(.gender input, .gender label){
     cursor: pointer;
