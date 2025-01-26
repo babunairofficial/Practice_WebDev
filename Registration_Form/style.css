@@ -38,7 +38,7 @@ body{
 .input-box label{
     color: #333;
 }
-.form .input-box input{
+.form :where(.input-box input, .select-box){
     position: relative;
     height: 50px;
     width: 100%;
@@ -67,6 +67,7 @@ body{
     display: flex;
     align-items: center;
     column-gap: 50px;
+    flex-wrap: wrap;
 }
 .form .gender{
     column-gap: 5px;
@@ -77,5 +78,8 @@ body{
 @media screen and (max-width: 500px) {
     .form .column{
         flex-wrap: wrap;
+    }
+    .form :where(.gender-option, .gender){
+        row-gap: 15px;
     }    
 }
