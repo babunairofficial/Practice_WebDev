@@ -47,3 +47,16 @@ body{
     border-radius: 50%;
     border: 5px solid white;
 }
+.card h2{
+    margin-top: 25px;
+    color: midnightblue;
+    font-size: 22px;
+    font-weight: 600;
+}
+.card{
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    color: midnightblue;
+    text-align: center;
+}
