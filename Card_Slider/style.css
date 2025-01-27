@@ -12,6 +12,20 @@ body{
     justify-content: center;
     background: lightcyan;
 }
+::-webkit-scrollbar{
+    height: 8px;
+}
+::-webkit-scrollbar-track{
+    background: whitesmoke;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb{
+    background: teal;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: blue;
+}
 .container{
     display: flex;
     gap: 12px;
