@@ -12,10 +12,20 @@ body{
 }
 .wrapper{
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 300px;
     width: 300px;
     border-radius: 50%;
     box-shadow: -10px -10px 15px rgba(255, 255, 255, 1 ),
     10px 10px 10px rgba(0, 0, 0, 0.1 ); /*creating a shadowed figure*/
-
+}
+.wrapper::before{ /*creating the inner circle*/
+    content: '';
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
 }
