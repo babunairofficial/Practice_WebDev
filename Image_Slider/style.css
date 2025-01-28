@@ -35,6 +35,7 @@ body{
     color: white;
     font-size: 15px;
     transition: all 0.3s linear;
+    z-index: 100;
     cursor: pointer;
 }
 i:button:active{
@@ -50,12 +51,13 @@ i#next{
     height: 320px;
     max-width: 500px;
     width: 100%;
+    overflow: hidden;
 }
 .image-container .carousel{
     display: flex;
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    transition: all 0.4s ease;
 }
 .carousel img{
     height: 100%;
