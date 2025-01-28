@@ -57,3 +57,4 @@ Practice web development skills
     54. Loader like google
     55. Card Slider
     56. Loading Spinner 2
+    57. Image Slider (with javaScript)
