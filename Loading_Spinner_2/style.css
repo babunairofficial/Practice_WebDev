@@ -30,3 +30,17 @@ body{
     box-shadow: -10px -10px 15px rgba(255, 255, 255, 1 ),
     10px 10px 10px rgba(0, 0, 0, 0.1 ); /*creating a shadowed figure*/
 }
+.wrapper span{
+    position: absolute;
+    height: 186px;
+    width: 220px;
+    background: red;
+}
+.wrapper span::before{
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: lightskyblue;
+    border-radius: 50%;
+}
