@@ -55,3 +55,4 @@ Practice web development skills
     52. Registration Form
     53. Toggle Button
     54. Loader like google
+    55. Card Slider
