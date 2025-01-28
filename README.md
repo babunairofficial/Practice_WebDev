@@ -56,3 +56,4 @@ Practice web development skills
     53. Toggle Button
     54. Loader like google
     55. Card Slider
+    56. Loading Spinner 2
