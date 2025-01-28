@@ -34,7 +34,13 @@ body{
     position: absolute;
     height: 186px;
     width: 220px;
-    background: red;
+    /* background: red; */
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }    
 }
 .wrapper span::before{
     content: '';
