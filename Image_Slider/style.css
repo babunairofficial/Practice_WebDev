@@ -20,16 +20,19 @@ body{
     justify-content: center;
 }
 .image-container{
-    height: 360px;
+    height: 320px;
     max-width: 500px;
     width: 100%;
 }
 .image-container .carousel{
+    display: flex;
     height: 100%;
     width: 100%;
 }
 .carousel img{
     height: 100%;
     width: 100%;
+    border-radius: 18px;
+    border: 10px solid white;
     object-fit: cover;
 }
