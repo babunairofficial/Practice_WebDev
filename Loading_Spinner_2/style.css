@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+}
+.wrapper{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background: red;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 1 );
+}
