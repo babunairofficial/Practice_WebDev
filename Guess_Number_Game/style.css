@@ -12,3 +12,10 @@ body{
     justify-content: center;
     background: cornflowerblue;
 }
+.wrapper{
+    padding: 30px;
+    border-radius: 12px;
+    background: white;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
