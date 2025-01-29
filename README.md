@@ -58,3 +58,4 @@ Practice web development skills
     55. Card Slider
     56. Loading Spinner 2
     57. Image Slider (with javaScript)
+    58. Guess Number Game using Javascript
