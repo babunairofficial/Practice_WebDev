@@ -19,3 +19,11 @@ body{
     text-align: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
+.wrapper header{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+.wrapper p{
+    color: #333;
+}
