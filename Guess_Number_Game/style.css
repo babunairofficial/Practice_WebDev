@@ -52,6 +52,9 @@ input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button{
     display: none;
 }
+.input-field input:disabled{
+    cursor: not-allowed;
+}
 .input-field button{
     border: none;
     background: cornflowerblue;
