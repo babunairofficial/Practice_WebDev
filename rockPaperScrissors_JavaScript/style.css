@@ -31,3 +31,9 @@ body{
 .computer_result img{
     transform: rotate(-90deg) rotateY(180deg);
 }
+.result{
+    text-align: center;
+    font-size: 2rem;
+    color: purple;
+    margin-top: 1.5rem;
+}
