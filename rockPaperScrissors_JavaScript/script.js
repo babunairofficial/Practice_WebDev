@@ -17,6 +17,11 @@ const container = document.querySelector(".container"),
                 //If the current index doesn't match the clicked index
                 //Remove the "active" class from the other option images 
                 index !== index2 && image2.classList.remove("active");                
-            });            
+            });
+            
+            //Get the source of the clicked option image
+            let imageSrc = image.querySelector("img").src;
+            //Set the user image to the clicked option image
+            userResult.src = imageSrc
         });
     });
