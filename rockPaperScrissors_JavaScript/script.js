@@ -53,5 +53,8 @@ const container = document.querySelector(".container"),
             //Look up the outcome value based on user and Computer options
             let outcomeValue = outcomes[userValue + computerValue];
             console.log(outcomeValue);
+
+            //Display the result
+            result.textContent = userValue === computerValue ? "Match Draw" : `${outcomeValue} Won!`
         });
     });
