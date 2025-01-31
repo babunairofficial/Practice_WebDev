@@ -23,5 +23,18 @@ const container = document.querySelector(".container"),
             let imageSrc = image.querySelector("img").src;
             //Set the user image to the clicked option image
             userResult.src = imageSrc
+
+            //Generate a random number between 0 and 2
+            let randomNumber = Math.floor(Math.random() * 3);
+            //Create an array of computer image options
+            let computerImages = ["images/rock.png", "images/paper.png", "images/scissors.png"];
+            //set the CPU image to a random option from the array
+            computerResult.src = computerImages[randomNumber];
+            
+            //Assign a letter value to the computer option (R for rock, P for paper, S for scissors)
+            let computerValue = ["R", "P", "S"][randomNumber];
+            //Assign a letter value to the clicked option (based on index)
+            let userValue = ["R", "P", "S"][index];
+            console.log(userValue, computerValue);
         });
     });
