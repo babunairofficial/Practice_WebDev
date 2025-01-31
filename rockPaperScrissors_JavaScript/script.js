@@ -36,5 +36,22 @@ const container = document.querySelector(".container"),
             //Assign a letter value to the clicked option (based on index)
             let userValue = ["R", "P", "S"][index];
             console.log(userValue, computerValue);
+
+            //Create an object with all possible outcome
+            let outcomes = {
+                RR: "Draw",
+                RP: "Computer",
+                RS: "User",
+                PP: "Draw",
+                PR: "User",
+                PS: "Computer",
+                SS: "Draw",
+                SP: "User",
+                SR: "Computer",
+            }
+
+            //Look up the outcome value based on user and Computer options
+            let outcomeValue = outcomes[userValue + computerValue];
+            console.log(outcomeValue);
         });
     });
