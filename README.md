@@ -59,3 +59,4 @@ Practice web development skills
     56. Loading Spinner 2
     57. Image Slider (with javaScript)
     58. Guess Number Game using Javascript
+    59. Rock Paper Scissors game using JavaScript
