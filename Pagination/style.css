@@ -28,6 +28,10 @@ body,
 .button{
     border: none;
 }
+.button:disabled{
+    color: lightgrey;
+    pointer-events: none;
+}
 .button,
 .link{
     height: 45px;
@@ -47,6 +51,10 @@ body,
 }
 .button:hover,
 .link:hover{
+    color: white;
+    background: lightskyblue;
+}
+.link.active{
     color: white;
     background: lightskyblue;
 }
