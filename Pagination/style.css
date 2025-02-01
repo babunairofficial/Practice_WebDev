@@ -5,3 +5,23 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    height: 100vh;
+    background: lightskyblue;
+}
+body,
+.container,
+.button,
+.links,
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 20px;
+    border-radius: 8px;
+    column-gap: 12px;
+    background: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
