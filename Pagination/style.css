@@ -28,6 +28,9 @@ body,
 .button{
     border: none;
 }
+.button i{
+    pointer-events: none;
+}
 .button:disabled{
     color: lightgrey;
     pointer-events: none;
