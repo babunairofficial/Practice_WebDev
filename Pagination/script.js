@@ -7,6 +7,24 @@ const startBtn = document.querySelector("#startBtn"),
 //Setting an initial step
 let currentStep = 0;
 
+//Function to update the button states
+const updateBtn = () => {
+    //incase of last step
+    if(currentStep === 4){
+        endBtn.disabled = true;
+        prevNext[1].disabled = true;
+    } else if (currentStep === 0) {
+        //incase of 1st step
+        startBtn.disabled = true;
+        prevNext[0].disabled = true;
+    } else{
+        endBtn.disabled = false;
+        prevNext[1].disabled = false;;
+        startBtn.disabled = false;
+        prevNext[0].disabled = false;
+    }
+}
+
 //Add event listeners to the number links
 numbers.forEach((number, numIndex) => {
     number.addEventListener("click", (e) => {
@@ -18,6 +36,7 @@ numbers.forEach((number, numIndex) => {
         document.querySelector(".active").classList.remove("active");
         //Add the "active" class to the clicked number link
         number.classList.add("active");
+        updateBtn(); //update the button states
     });
 });
 
@@ -31,6 +50,7 @@ prevNext.forEach(button => {
             // console.log(numIndex, currentStep);
             //Toggle the "active" class on the numebr links based on the button clicked
             number.classList.toggle("active", numIndex === currentStep);
+            updateBtn();
         })
     });
 });
