@@ -54,3 +54,27 @@ prevNext.forEach(button => {
         })
     });
 });
+
+//Add event listener to the "Start" button
+startBtn.addEventListener("click", () => {
+    //Remove the "active" class from the previously active number line
+    document.querySelector(".active").classList.remove("active");
+    //Add the "active class to the first number link
+    numbers[0].classList.add("active");
+    currentStep = 0;
+    updateBtn(); //Update the button states
+    endBtn.disabled = false;
+    prevNext[1].disabled = false;
+});
+
+//Add event listener to the "End" button
+endBtn.addEventListener("click", () => {
+    //Remove the "active" class from the previously active number line
+    document.querySelector(".active").classList.remove("active");
+    //Add the "active class to the last number link
+    numbers[4].classList.add("active");
+    currentStep = 4;
+    updateBtn(); //Update the button states
+    startBtn.disabled = false;
+    prevNext[0].disabled = false;
+});
