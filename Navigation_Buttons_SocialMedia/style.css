@@ -16,3 +16,31 @@ body {
     left: 0;
     transform: translateY(-50%);
 }
+.media-icons {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 6px;
+    border-radius: 6px;
+}
+.media-icons a{
+    text-decoration: none;
+    position: relative;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 6px;
+    margin: 6px;
+}
+.media-icons a .tooltip {
+    position: absolute;
+    left: 55px;
+    font-size: 14px;
+    font-weight: 400;
+    pointer-events: none;
+}
