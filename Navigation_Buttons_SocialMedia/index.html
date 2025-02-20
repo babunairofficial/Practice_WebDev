@@ -47,5 +47,12 @@
             <i class="fa-solid fa-xmark"></i>
         </span>
     </div>
+    <script>
+        const closeBtn = document.querySelector(".close-btn");
+
+        closeBtn.addEventListener("click", () => {
+            closeBtn.classList.toggle("open");
+        });
+    </script>
 </body>
 </html>
