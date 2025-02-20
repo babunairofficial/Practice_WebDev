@@ -61,3 +61,4 @@ Practice web development skills
     58. Guess Number Game using Javascript
     59. Rock Paper Scissors game using JavaScript
     60. Pagination using HTML, CSS and JavaScript
+    61. Navigation Buttons for Social Media links
