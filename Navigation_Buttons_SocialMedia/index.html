@@ -49,8 +49,10 @@
     </div>
     <script>
         const closeBtn = document.querySelector(".close-btn");
+        const container = document.querySelector(".container");
 
         closeBtn.addEventListener("click", () => {
+            container.classList.toggle("open");
             closeBtn.classList.toggle("open");
         });
     </script>

@@ -28,6 +28,11 @@ body {
     padding: 6px;
     border-radius: 6px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transform: translate(-100%);
+    transition: transform 0.3s ease;
+}
+.container.open .media-icons{
+    transform: translate(0);
 }
 .media-icons a{
     text-decoration: none;
@@ -83,4 +88,12 @@ a .tooltip::before {
     margin-top: 20px;
     background-color: red;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform: rotate(45deg);
+}
+.close-btn.open{
+    transform: rotate(90deg);
+    background-color: violet;
+    transition: transform 0.3s ease;
 }
