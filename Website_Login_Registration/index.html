@@ -9,6 +9,7 @@
     
     <!--FontAwesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 <body>
     <header class="header">
@@ -28,6 +29,25 @@
         </nav>
     </header>
 
-    <section class="home"></section>
+    <section class="home">
+        <div class="form_container">
+            <i class="fa-solid fa-xmark form_close"></i>
+            <div class="form login_form">
+                <form action="#">
+                    <h2>Login</h2>
+
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter your email" required>
+                        <i class="fa-regular fa-envelope email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Enter your password" required>
+                        <i class="fa-solid fa-lock password"></i>
+                        <i class="fa-regular fa-eye-slash pw_hide"></i>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
