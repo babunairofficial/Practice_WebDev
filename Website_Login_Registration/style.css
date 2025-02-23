@@ -160,3 +160,8 @@ a {
     padding: 10px 0;
     border-radius: 10px;
 }
+.login_signup{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+}
