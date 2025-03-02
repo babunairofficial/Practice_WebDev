@@ -28,6 +28,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
 }
 .wrapper .img-area{
     height: 150px;
@@ -72,7 +73,8 @@ body{
     position: relative;
 }
 .social-icons a:hover::before,
-.buttons button:hover::before{
+.buttons button:hover::before,
+.wrapper .icon:hover::before{
     position: absolute;
     content: "";
     top: 0;
@@ -131,4 +133,63 @@ body{
 }
 .buttons button:last-child{
     margin-left: 10px;
+}
+.wrapper .social-share{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 5px;
+    justify-content: space-between;
+}
+.social-share .row{
+    color: darkslategrey;
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+}
+.social-share .row::before{
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background: whitesmoke;
+    margin-left: -25px;
+}
+.row:first-child::before{
+    background: none;
+}
+.social-share .row i.icon-2{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.row:nth-child(1):hover i.icon-2,
+.row:nth-child(2):hover i.icon-2{
+    opacity: 1;
+    pointer-events: auto;
+}
+.wrapper .icon{
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    color: darkslategrey;
+    opacity: 0.7;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    text-align: center;
+}
+.wrapper .icon.arrow{
+    left: 15px;
+}
+.wrapper .icon.dots{
+    right: 15px;
+}
+.wrapper .icon i{
+    position: relative;
+    z-index: 5;
 }
