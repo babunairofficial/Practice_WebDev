@@ -40,6 +40,16 @@ body{
     font-size: 20px;
     color: grey;
     text-transform: uppercase;
+    background: aliceblue;
     box-shadow: -3px -3px 7px white,
                 2px 2px 5px grey;
+}
+.wrapper .keys input:focus{
+    color: violet;
+    font-size: 19px;
+    box-shadow: inset -3px -3px 7px white,
+                inset 2px 2px 5px grey;
+}
+.wrapper .keys input[value = "space"]{
+    width: 60%;
 }
