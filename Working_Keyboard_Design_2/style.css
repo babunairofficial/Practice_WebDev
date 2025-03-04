@@ -44,7 +44,7 @@ body{
     box-shadow: -3px -3px 7px white,
                 2px 2px 5px grey;
 }
-.wrapper .keys input:focus{
+.wrapper .keys input:active{
     color: violet;
     font-size: 19px;
     box-shadow: inset -3px -3px 7px white,
@@ -65,6 +65,7 @@ body{
     border: none;
     outline: none;
     resize: none;
+    color: violet;
     font-size: 20px;
     padding: 10px 15px;
     background: aliceblue;
