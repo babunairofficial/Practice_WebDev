@@ -66,3 +66,4 @@ Practice web development skills
     63. Profile Card 5 (Neumorphism)
     65. Keyboard Degin (Neumorphism)
     66. Working Keyboard Design 2
+    67. Pagination 2
