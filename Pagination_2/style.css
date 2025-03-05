@@ -41,6 +41,14 @@ html,body{
     display: block;
     line-height: 45px;
 }
+.pagination li.active{
+    box-shadow: inset -3px -3px 7px white,
+                inset 3px 3px 5px grey;
+}
+.pagination li.active a{
+    font-size: 17px;
+    color: violet;
+}
 .pagination li:first-child a{
     width: 120px;
 }
