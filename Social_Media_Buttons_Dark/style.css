@@ -23,7 +23,7 @@ body{
     box-shadow: -1px -1px 3px grey,
                 2px 2px 6px whitesmoke;
 }
-.icons li:before{
+.icons li.active:before{
     position: absolute;
     content: '';
     top: 50%;
@@ -43,4 +43,8 @@ body{
     line-height: 70px;
     position: relative;
     z-index: 2;
+}
+.icons li.active a{
+    color: cyan;
+    font-size: 25px;
 }
