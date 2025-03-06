@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background: black;
+}
+.icons li{
+    position: relative;
+    list-style: none;
+    display: inline-flex;
+    margin: 0 10px;
+    height: 70px;
+    width: 70px;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: -1px -1px 3px grey,
+                2px 2px 6px whitesmoke;
+}
+.icons li:before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    height: 55px;
+    width: 55px;
+    transform: translate(-50%, -50%);
+    background: black;
+    border-radius: 50%;
+    box-shadow: inset -1px -1px 3px grey,
+                inset 2px 2px 6px whitesmoke;
+}
+.icons li a{
+    color: white;
+    font-size: 27px;
+    width: 100%;
+    line-height: 70px;
+    position: relative;
+    z-index: 2;
+}
