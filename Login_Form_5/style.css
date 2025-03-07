@@ -103,3 +103,15 @@ button:focus{
     box-shadow: inset 2px 2px 5px grey,
                 inset -5px -5px 10px white;
 }
+.signup{
+    font-size: 16px;
+    color: slategrey;
+    margin: 10px 0;
+}
+.signup a{
+    color: blue;
+    text-decoration: none;
+}
+.signup:hover a{
+    text-decoration: underline;
+}
