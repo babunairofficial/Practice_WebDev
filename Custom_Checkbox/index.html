@@ -11,7 +11,12 @@
         <div class="toggle">
             <input type="checkbox">
         </div>
-        <div class="text">Unchecked</div>
+        <div class="text"></div>
     </div>
+    <script>
+        document.querySelector('.toggle').addEventListener('click', function(){
+            document.querySelector('.text').classList.toggle('check');
+        });
+    </script>
 </body>
 </html>

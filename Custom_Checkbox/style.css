@@ -44,6 +44,9 @@ body{
                 inset -4px -4px 4px 0px white,
                 inset 4px 4px 4px 0px grey;
 }
+.toggle input:checked{
+    background-color: violet; /* Blue background when checked */
+}
 .toggle input:before{
     position: absolute;
     content: '';
@@ -71,7 +74,7 @@ input:checked:before{
     float: right;
     width: 112px;
 }
-.text:hover:before{
+.text.check:before{
     content: 'Checked';
-    color: aquamarine;
+    color: turquoise;
 }
