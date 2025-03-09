@@ -32,7 +32,7 @@ body{
     font-size: 27px;
     color: lightgrey;
 }
-.second li a{
+.second li.shadow-2 a{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -44,4 +44,29 @@ body{
     font-size: 24px;
     box-shadow: inset -3px -3px 7px white,
                 inset 3px 3px 5px grey;
+}
+.first li.shadow-1{
+    box-shadow: inset -3px -3px 7px white,
+                inset 3px 3px 5px grey;
+}
+.first li.shadow-1 a{
+    font-size: 25px;
+}
+li:nth-child(1).fill-color a{
+    color: #4267B2;
+}
+li:nth-child(2).fill-color a{
+    color: #1da1f2;
+}
+li:nth-child(3).fill-color a{
+    color: #e1306c;
+}
+li:nth-child(4).fill-color a{
+    color: #2867b2;
+}
+li:nth-child(5).fill-color a{
+    color: #333;
+}
+li:nth-child(6).fill-color a{
+    color: #4267B2;
 }
