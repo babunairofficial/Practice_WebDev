@@ -72,3 +72,4 @@ Practice web development skills
     69. Custom Checkbox (Neumorphism)
     70. Social Media Icons (Neumorphism)
     71. Buttons (Neumorphic Design)
+    72. Pagination 3
