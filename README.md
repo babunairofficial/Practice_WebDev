@@ -73,3 +73,4 @@ Practice web development skills
     70. Social Media Icons (Neumorphism)
     71. Buttons (Neumorphic Design)
     72. Pagination 3
+    73. Emojis Star Rating
