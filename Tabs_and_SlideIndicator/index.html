@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Tabs with Slide Indicator</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c967bc04b7.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="wrapper">
         <header>CSS Tabs</header>
+        <input type="radio" name="slider" id="home" checked>
+        <input type="radio" name="slider" id="blog">
+        <input type="radio" name="slider" id="code">
+        <input type="radio" name="slider" id="help">
+        <input type="radio" name="slider" id="about">
         <nav>
-            <label for="" class="home"><i class="fas fa-home"></i>Home</label>
-            <label for="" class="home"><i class="fas fa-blog"></i>Blog</label>
-            <label for="" class="home"><i class="fas fa-code"></i>Code</label>
-            <label for="" class="home"><i class="fas fa-envelope"></i>Help</label>
-            <label for="" class="home"><i class="fas fa-user"></i>About</label>
+            <label for="home" class="home"><i class="fas fa-home"></i>Home</label>
+            <label for="blog" class="blog"><i class="fas fa-blog"></i>Blog</label>
+            <label for="code" class="code"><i class="fas fa-code"></i>Code</label>
+            <label for="help" class="help"><i class="fas fa-envelope"></i>Help</label>
+            <label for="about" class="about"><i class="fas fa-user"></i>About</label>
+            <div class="slider"></div>
         </nav>
     </div>
 </body>
