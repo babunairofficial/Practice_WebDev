@@ -7,7 +7,7 @@
 }
 body{
     background: darkturquoise;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .wrapper{
     max-width: 700px;
@@ -77,4 +77,19 @@ input[type="radio"]{
 }
 #about:checked ~ nav .slider{
     left: 80%;
+}
+section .content{
+    display: none;
+}
+#home:checked ~ section .content-1,
+#blog:checked ~ section .content-2,
+#code:checked ~ section .content-3,
+#help:checked ~ section .content-4,
+#about:checked ~ section .content-5{
+    display: block;
+}
+section .content .title{
+    font-size: 21px;
+    font-weight: 500;
+    margin: 30px 0 10px 0;
 }
