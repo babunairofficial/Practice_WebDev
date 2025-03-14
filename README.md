@@ -74,3 +74,4 @@ Practice web development skills
     71. Buttons (Neumorphic Design)
     72. Pagination 3
     73. Emojis Star Rating
+    74. Tabs with slider
