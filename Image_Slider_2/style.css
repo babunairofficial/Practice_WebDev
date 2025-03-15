@@ -24,4 +24,45 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s ease;
+}
+#one:checked ~ .img-1 img,
+#two:checked ~ .img-2 img,
+#three:checked ~ .img-3 img,
+#four:checked ~ .img-4 img,
+#five:checked ~ .img-5 img{
+    clip-path: circle(150% at 0% 100%);
+}
+.wrapper .sliders{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    display: flex;
+}
+.wrapper .sliders label{
+    height: 13px;
+    width: 13px;
+    border: 2px solid lightblue;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+#one:checked ~ .sliders label.one,
+#two:checked ~ .sliders label.two,
+#three:checked ~ .sliders label.three,
+#four:checked ~ .sliders label.four,
+#five:checked ~ .sliders label.five{
+    width: 35px;
+    border-radius: 14px;
+    background: lightblue;
+}
+.sliders label:hover{
+    background: lightblue;
+}
+.wrapper input[type="radio"]{
+    display: none;
 }
