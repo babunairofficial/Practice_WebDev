@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+.skills-bar{
+    width: 600px;
+    background: white;
+    border-radius: 10px;
+    padding: 25px 30px;
+    box-shadow: 5px 5px 10px darkgrey;
+}
+.skills-bar .bar{
+    margin: 20px 0;
+}
+.skills-bar .bar:first-child{
+    margin-top: 0px;
+}
+.skills-bar .bar .info{
+    margin-top: 5px;
+}
+.skills-bar .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+}
+.skills-bar .bar .progress-line{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: inset 0px 1px 1px lightgrey,
+                        0px 1px whitesmoke;
+}
+.bar .progress-line span{
+    height: 100%;
+    width: 80%;
+    background: slateblue;
+    position: absolute;
+    border-radius: 10px;
+}
+.bar .progress-line span::before{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: black;
+}
+.bar .progress-line span::after{
+    position: absolute;
+    content: "80%";
+    right: 0;
+    top: -10px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    background: black;
+    padding: 1px 8px;
+    border: 3px;
+}
