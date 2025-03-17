@@ -40,6 +40,7 @@ html, body{
     margin: 10px 0;
     padding-left: 20px;
     cursor: default;
+    transition: all 0.3s ease;
 }
 .wrapper .box label .dot{
     height: 20px;
@@ -53,15 +54,39 @@ html, body{
     content: "";
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(2);
     width: 9px;
     height: 9px;
-    /* background: black; */
     border-radius: 50%;
+    transition: all 0.3s ease;
+}
+#option-1:checked ~ .option-1 .dot::before,
+#option-2:checked ~ .option-2 .dot::before,
+#option-3:checked ~ .option-3 .dot::before,
+#option-4:checked ~ .option-4 .dot::before{
+    background: black;
+    transform: translate(-50%, -50%) scale(1);
 }
 .wrapper .box label .text{
     color: black;
     font-size: 18px;
     font-weight: 400;
     padding-left: 10px;
+    transition: color 0.3s ease;
+}
+#option-1:checked ~ .option-1,
+#option-2:checked ~ .option-2,
+#option-3:checked ~ .option-3,
+#option-4:checked ~ .option-4{
+    background: black;
+    border-color: black;
+}
+#option-1:checked ~ .option-1 .text,
+#option-2:checked ~ .option-2 .text,
+#option-3:checked ~ .option-3 .text,
+#option-4:checked ~ .option-4 .text{
+    color: white;
+}
+.wrapper .box input[type="radio"]{
+    display: none;
 }
