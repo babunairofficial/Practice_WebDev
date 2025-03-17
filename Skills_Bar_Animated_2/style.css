@@ -9,6 +9,7 @@ html, body{
     display: grid;
     height: 100%;
     place-items: center;
+    background: slateblue;
 }
 .skills-bar{
     width: 600px;
@@ -29,15 +30,24 @@ html, body{
 .skills-bar .bar .info span{
     font-size: 17px;
     font-weight: 500;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+    100%{
+        opacity: 1;
+    }
 }
 .skills-bar .bar .progress-line{
     position: relative;
     height: 10px;
     width: 100%;
-    background: whitesmoke;
     border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
     box-shadow: inset 0px 1px 1px lightgrey,
                         0px 1px whitesmoke;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 .bar .progress-line span{
     height: 100%;
@@ -45,6 +55,29 @@ html, body{
     background: slateblue;
     position: absolute;
     border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+@keyframes animate {
+    100%{
+        transform: scaleX(1);
+    }
+}
+.progress-line.html span{
+    width: 90%;
+}
+.progress-line.css span{
+    width: 60%;
+}
+.progress-line.javascript span{
+    width: 85%;
+}
+.progress-line.python span{
+    width: 50%;
+}
+.progress-line.mysql span{
+    width: 75%;
 }
 .bar .progress-line span::before{
     position: absolute;
@@ -57,16 +90,39 @@ html, body{
     border-bottom-width: 0px;
     border-right-width: 0px;
     border-top-color: black;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
 }
 .bar .progress-line span::after{
     position: absolute;
-    content: "80%";
     right: 0;
-    top: -10px;
+    top: -28px;
     color: white;
     font-size: 12px;
     font-weight: 500;
     background: black;
     padding: 1px 8px;
     border: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+    100%{
+        opacity: 1;
+    }
+}
+.progress-line.html span::after{
+    content: "90%";
+}
+.progress-line.css span::after{
+    content: "60%";
+}
+.progress-line.javascript span::after{
+    content: "85%";
+}
+.progress-line.python span::after{
+    content: "50%";
+}
+.progress-line.mysql span::after{
+    content: "75%";
 }
