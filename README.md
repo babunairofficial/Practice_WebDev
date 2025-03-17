@@ -76,3 +76,4 @@ Practice web development skills
     73. Emojis Star Rating
     74. Tabs with slider
     75. Image Slider 2
+    76. Skills Bar (Animated) 2
