@@ -79,3 +79,4 @@ Practice web development skills
     76. Skills Bar (Animated) 2
     77. Radio Buttons Customised 3
     78. Glowing Bulb Effect
+    79. Star Rating
