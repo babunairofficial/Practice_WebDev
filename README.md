@@ -81,3 +81,4 @@ Practice web development skills
     78. Glowing Bulb Effect
     79. Star Rating
     80. Wow Reaction
+    81. Image Slideshow Effect
