@@ -82,3 +82,4 @@ Practice web development skills
     79. Star Rating
     80. Wow Reaction
     81. Image Slideshow Effect
+    82. Search Bar Animated
