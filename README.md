@@ -83,3 +83,4 @@ Practice web development skills
     80. Wow Reaction
     81. Image Slideshow Effect
     82. Search Bar Animated
+    83. Checkbox 2
