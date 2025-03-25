@@ -84,3 +84,4 @@ Practice web development skills
     81. Image Slideshow Effect
     82. Search Bar Animated
     83. Checkbox 2
+    84. Sidebar Menu 3
