@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: snow;
+    padding: 0 15px;
+}
+
+.facebook-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.facebook-page .text{
+    margin-bottom: 90px;
+}
+
+.facebook-page h1{
+    font-size: 4rem;
+    color: #0866ff;
+    margin-bottom: 10px;
+}
+
+.facebook-page p{
+    font-size: 1.75rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black,
+                0 2px 16px black;
+}
+
+form input{
+    height: 55px;
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+form input:focus{
+    outline: none;
+    border-color: #0866ff;
+}
+
+::placeholder{
+    color: grey;
+    font-size: 1.063rem;
+}
+
+.login-link{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.login-link .login-btn{
+    padding: 15px 0;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #0866ff;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.login-link .login-btn:hover{
+    background: #1877f2;
+}
+
+form a{
+    text-decoration: none;
+}
+
+.login-link .forgot-password{
+    color: #0866ff;
+    font-size: 0.875rem;
+}
+
+.login-link .forgot-password:hover{
+    text-decoration: underline;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+.create-account{
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.create-account a{
+    padding: 15px 20px;
+    background: #42b72a;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.063rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.create-account a:hover{
+    background: #36a420;
+}
+
+@media (max-width: 900px){
+    .facebook-page{
+        flex-direction: column;
+        text-align: center
+    }
+
+    .facebook-page .text{
+        margin-bottom: 30px
+    }
+};
+
+@media (max-width: 460px) {
+    .facebook-page h1{
+        font-size: 3.5rem;
+    }
+
+    .facebook-page p{
+        font-size: 1.3rem;
+    }
+
+    form {
+        padding: 159x;
+    }
+}
