@@ -87,3 +87,4 @@ Practice web development skills
     84. Sidebar Menu 3
     85. Login Form 6
     86. Login form 7
+    87. Weather App
