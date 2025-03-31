@@ -33,3 +33,9 @@ console.log(inputBox, listContainer);
 function saveData() {
     localStorage.setItem("data", listContainer.innerHTML);
 }
+
+//display data everytime browser is refreshed. 
+function showTask() {
+    listContainer.innerHTML = localStorage.getItem("data")
+}
+showTask();
