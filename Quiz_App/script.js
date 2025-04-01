@@ -102,4 +102,27 @@ function selectAnswer(e){
     nextBtn.style.display = "block";
 }
 
+function showScore() {
+    resetState();
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    nextBtn.innerHTML = "Play Again";
+    nextBtn.style.display = "block";
+}
+
+function handleNextButton() {
+    currentQuestionIndex++;
+    if(currentQuestionIndex < questions.length) {
+        showQuestion();
+    } else {
+        showScore();
+    }
+}
+
+nextBtn.addEventListener("click", () => {
+    if(currentQuestionIndex < questions.length){
+        handleNextButton();
+    } else {
+        startQuiz();
+    }
+})
 startQuiz();
