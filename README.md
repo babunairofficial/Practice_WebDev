@@ -90,3 +90,4 @@ Practice web development skills
     87. Weather App
     88. ToDO App
     89. Quiz App
+    90. Password Generator
