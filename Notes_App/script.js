@@ -3,6 +3,17 @@ const createBtn = document.querySelector(".btn");
 
 let notes = document.querySelectorAll(".input-box"); //input-box class would be added through javascript
 
+//show notes from storage
+function showNotes(){
+    notesContainer.innerHTML = localStorage.getItem("notes");
+}
+showNotes();
+
+//update Storage
+function updateStorage() {
+    localStorage.setItem("notes", notesContainer.innerHTML)
+}
+
 //create an input-box class element, inside notes-container class, through javascript
 createBtn.addEventListener("click", () => {
     let inputBox = document.createElement("p");
@@ -18,5 +29,15 @@ createBtn.addEventListener("click", () => {
 notesContainer.addEventListener("click", function(e){
     if(e.target.tagName === "IMG") {
         e.target.parentElement.remove();
-    }    
+        updateStorage();
+    }
+    else if(e.target.tagName === "P") {
+        notes = document.querySelectorAll(".input-box");
+        notes.forEach(nt => {
+            nt.onkeyup = function() {
+                updateStorage();
+            }
+        });
+    } 
 })
+
