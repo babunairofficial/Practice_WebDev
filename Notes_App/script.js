@@ -3,7 +3,7 @@ const createBtn = document.querySelector(".btn");
 
 let notes = document.querySelectorAll(".input-box"); //input-box class would be added through javascript
 
-//show notes from storage
+// show notes from storage
 function showNotes(){
     notesContainer.innerHTML = localStorage.getItem("notes");
 }
@@ -20,8 +20,10 @@ createBtn.addEventListener("click", () => {
     let img = document.createElement("img");
     inputBox.className = "input-box";
     inputBox.setAttribute("contenteditable", "true");
-    img.src = "images/delete.png"
+    img.src = "images/delete.png";
     notesContainer.appendChild(inputBox).appendChild(img);
+
+    updateStorage();
 
 });
 
@@ -32,7 +34,7 @@ notesContainer.addEventListener("click", function(e){
         updateStorage();
     }
     else if(e.target.tagName === "P") {
-        notes = document.querySelectorAll(".input-box");
+        const notes = document.querySelectorAll(".input-box");
         notes.forEach(nt => {
             nt.onkeyup = function() {
                 updateStorage();
@@ -41,3 +43,9 @@ notesContainer.addEventListener("click", function(e){
     } 
 })
 
+document.addEventListener("keydown", event =>{
+    if(event.key === "Enter") {
+        document.execCommand("insertLineBreak");
+        event.preventDefault();
+    }
+})
