@@ -93,3 +93,4 @@ Practice web development skills
     90. Password Generator
     91. Notes App
     92. Age Calculator App
+    93. Quote Generator Website
