@@ -16,5 +16,17 @@
             <button><img src="images/x.png" alt="x">Tweet</button>
         </div>
     </div>
+    <script>
+        const api_url = "https://dummyjson.com/quotes/random";
+
+        async function getquote(url){
+            const response = await fetch(url);
+            var data = await response.json();
+            console.log(data);
+        }
+
+        getquote(api_url);
+        
+    </script>
 </body>
 </html>
