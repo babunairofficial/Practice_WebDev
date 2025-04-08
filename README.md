@@ -95,3 +95,4 @@ Practice web development skills
     92. Age Calculator App
     93. Quote Generator Website
     94. QR Code Generator Website
+    95. Toast Notification Website
