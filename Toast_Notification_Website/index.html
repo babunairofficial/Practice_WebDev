@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toast Notification</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c967bc04b7.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="buttons">
@@ -19,9 +20,9 @@
     <script>
 
         let toastBox = document.getElementById('toastBox');
-        let successMsg = 'Successfully submitted.';
-        let errorMsg = 'Please fix the error.';
-        let invalidMsg = 'Invalid input, check again!';
+        let successMsg = '<i class="fa-solid fa-circle-check"></i> Successfully submitted.';
+        let errorMsg = '<i class="fa-solid fa-circle-xmark"></i> Please fix the error.';
+        let invalidMsg = '<i class="fa-solid fa-circle-exclamation"></i> Invalid input, check again!';
 
         //function to add toast notification
         function showToast(msg) {
@@ -30,6 +31,17 @@
             toast.innerHTML = msg;
 
             toastBox.appendChild(toast);
+
+            if(msg.includes('error')){
+                toast.classList.add('error');
+            }
+            if(msg.includes('Invalid')){
+                toast.classList.add('invalid');
+            }
+
+            setTimeout(() => {
+                toast.remove();                
+            }, 3000);
         }
     </script>
 </body>
