@@ -97,3 +97,4 @@ Practice web development skills
     94. QR Code Generator Website
     95. Toast Notification Website
     96. Music Player
+    97. Stopwatch
