@@ -98,3 +98,4 @@ Practice web development skills
     95. Toast Notification Website
     96. Music Player
     97. Stopwatch
+    98. Calculator
