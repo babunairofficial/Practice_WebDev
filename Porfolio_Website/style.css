@@ -32,5 +32,30 @@ nav ul li a{
     color: #011c1c;
 }
 nav ul li a:hover{
-    color: #ff4321;
+    color: orangered;
+}
+.info{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.info h1{
+    font-size: 70px;
+    color: olive;
+    margin-bottom: 20px;
+}
+span{
+    color: orangered;
+}
+.info p{
+    color: #626063;
+    line-height: 22px;
+}
+.info a{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
 }
