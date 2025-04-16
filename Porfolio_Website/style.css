@@ -4,9 +4,11 @@
 }
 
 :root{
-    /* --primary-color: aliceblue;
-    --secondary-color: black; */
+    --primary-color: aliceblue;
+    --secondary-color: black;
+}
 
+.dark-theme{
     --primary-color: black;
     --secondary-color: white
 
