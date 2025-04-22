@@ -105,3 +105,4 @@ Practice web development skills
     102. Form Validation
     103. Image Gallery
     104. Email Subscription Form
+    105. Show Password Strength
