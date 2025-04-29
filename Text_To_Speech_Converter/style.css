@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: white;
 }
 .hero h1{
     font-size: 45px;
@@ -21,4 +22,37 @@
 }
 .hero h1 span{
     color: orangered;
+}
+textarea{
+    width: 600px;
+    height: 250px;
+    background: darkslateblue;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: palegoldenrod;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background: orangered;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
 }
