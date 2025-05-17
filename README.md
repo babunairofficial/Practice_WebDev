@@ -107,3 +107,4 @@ Practice web development skills
     104. Email Subscription Form
     105. Show Password Strength
     106. Text to Speech Converter
+    107. Website Coming Soon Page
