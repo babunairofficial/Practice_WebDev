@@ -108,3 +108,4 @@ Practice web development skills
     105. Show Password Strength
     106. Text to Speech Converter
     107. Website Coming Soon Page
+    108. Image Background Change Effect
