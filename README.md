@@ -111,3 +111,4 @@ Practice web development skills
     108. Image Background Change Effect
     109. Mini Calendar
     110. Select Menu Design
+    111. Progress Bar as Circle
