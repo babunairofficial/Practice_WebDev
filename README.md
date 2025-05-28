@@ -112,3 +112,4 @@ Practice web development skills
     109. Mini Calendar
     110. Select Menu Design
     111. Progress Bar as Circle
+    112. Product Page Design
