@@ -114,3 +114,4 @@ Practice web development skills
     111. Progress Bar as Circle
     112. Product Page Design
     113. Cryptocurrency website
+    114. Digital Clock
